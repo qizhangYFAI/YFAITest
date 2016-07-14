@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 just test for change
+=======
+I am change it some waer else
+>>>>>>> origin/master
