@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcNamingRule name="YF4_Criteria ID Rule">
+      <TcPattern generateCounters="true" patternString="&quot;CRT-&quot;nnnnnnnn">
+         <TcCounter initialValue="CRT-00000000" maximumValue="CRT-99999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_DVP ID Rule">
+      <TcPattern generateCounters="true" patternString="&quot;DVP-&quot;nnnnnnnn">
+         <TcCounter initialValue="DVP-00000000" maximumValue="DVP-99999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_Equipment ID Rule">
+      <TcPattern generateCounters="true" patternString="&quot;EQP-&quot;nnnnnnnn">
+         <TcCounter initialValue="EQP-00000000" maximumValue="EQP-99999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_Fixture ID Rule">
+      <TcPattern generateCounters="true" patternString="&quot;FXT-&quot;nnnnnnnn">
+         <TcCounter initialValue="FXT-00000000" maximumValue="FXT-99999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_Paragraph ID Rule">
+      <TcPattern generateCounters="true" patternString="&quot;PGH-&quot;nnnnnnnn">
+         <TcCounter initialValue="PGH-00000000" maximumValue="PGH-99999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_Phase ID Rule">
+      <TcPattern generateCounters="true" patternString="&quot;PHS-&quot;nnnnnnnn">
+         <TcCounter initialValue="PHS-00000000" maximumValue="PHS-99999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_Revision ID Rule">
+      <TcPattern generateCounters="true" patternString="nn">
+         <TcCounter initialValue="01" maximumValue="99"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_Sample ID Rule">
+      <TcPattern generateCounters="true" patternString="&quot;SMP-&quot;nnnnnnnn">
+         <TcCounter initialValue="SMP-00000000" maximumValue="SMP-99999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_SampleType ID Rule">
+      <TcPattern generateCounters="true" patternString="&quot;SMT-&quot;nnnnnnnn">
+         <TcCounter initialValue="SMT-00000000" maximumValue="SMT-99999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_Spec ID Rule">
+      <TcPattern generateCounters="true" patternString="&quot;SPC-&quot;nnnnnnnn">
+         <TcCounter initialValue="SPC-00000000" maximumValue="SPC-99999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_TDM ID Rule">
+      <TcPattern generateCounters="true" patternString="&quot;TDM-&quot;nnnnnnnn">
+         <TcCounter initialValue="TDM-00000000" maximumValue="TDM-99999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_Test ID Rule">
+      <TcPattern generateCounters="true" patternString="&quot;TST-&quot;nnnnnnnn">
+         <TcCounter initialValue="TST-00000000" maximumValue="TST-99999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_Test Method ID Rule">
+      <TcPattern generateCounters="true" patternString="&quot;MTH-&quot;nnnnnnnn">
+         <TcCounter initialValue="MTH-00000000" maximumValue="MTH-99999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_Test Request ID Rule">
+      <TcPattern generateCounters="true" patternString="&quot;TRF-&quot;nnnnnnnn">
+         <TcCounter initialValue="TRF-00000000" maximumValue="TRF-99999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_Test Result ID Rule">
+      <TcPattern generateCounters="true" patternString="&quot;RES-&quot;nnnnnnnn">
+         <TcCounter initialValue="RES-00000000" maximumValue="RES-99999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_WorkOrderID">
+      <TcPattern generateCounters="true" patternString="&quot;WO-&quot;nnnnnn" description="Work Order Numbering">
+         <TcCounter initialValue="WO-000001" maximumValue="WO-999999"/>
+      </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="YF4_WorkOrderMoldID">
+      <TcPattern generateCounters="true" patternString="&quot;Mold-&quot;nnnnn" description="Work Order Mold Numbering">
+         <TcCounter initialValue="Mold-00000" maximumValue="Mold-99999"/>
+      </TcPattern>
+   </TcNamingRule>
+</Add>
+</TcBusinessData>

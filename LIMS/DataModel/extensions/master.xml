@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataIncludes>
+    <include file="default.xml"/>
+    <include file="lov.xml"/>
+    <include file="businessobjects.xml"/>
+    <include file="namingrules.xml"/>
+    <include file="displayrules.xml"/>
+    <include file="conditions.xml"/>
+</TcBusinessDataIncludes>

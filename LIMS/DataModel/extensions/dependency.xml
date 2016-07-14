@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataIncludes currentTemplateVersion="10.1_9" displayName="YanFeng" enableOpsDataDeploy="true" guid="3F80F71CEC4F5B51AD37F10858E4FA57" isDescriptionMandatory="false" name="yanfeng" optional="true" prefixes="YF4" teamcenterTemplate="false">
+    <include file="foundation_template.xml"/>
+    <include file="cm_template.xml"/>
+    <include file="aws2_template.xml"/>
+    <include file="activeworkspacebom_template.xml"/>
+    <include file="relationshipviewer_template.xml"/>
+    <include file="Cm1cmaws_template.xml"/>
+</TcBusinessDataIncludes>

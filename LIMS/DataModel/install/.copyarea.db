@@ -1,0 +1,14 @@
+ClearCase CopyAreaDB|4
+Y-Z\Yanfeng\DataModel\install
+2
+a
+1e:upgrade_yanfeng_v20091.default|1|155da8a8d7a|1334|38dc41b8|d4e4ccd7b6404e989441db7337978a1d|0
+1e:upgrade_yanfeng_v20081.default|1|155da8a8d63|1335|d34941c0|ed4c9134cb0c4eab9dcf9a5ce2e48198|0
+6:bundle|2|0|0|0|c891b9e0ec0c49d6b34753d23e223093|0
+1d:upgrade_yanfeng_v2008.default|1|155da8a8d3b|1333|5b09415e|8023eebeb44c41e2af1fd41eb322cc6c|0
+1e:upgrade_yanfeng_v20082.default|1|155da8a8d8e|1335|f8ed41c2|b0d3793c0d584177aaa99831e4e48acf|0
+1c:upgrade_yanfeng_tc10.default|1|155da8a8d2e|1330|2ba74144|549bc2e946cf456eb721d55dc39baeb0|0
+1e:upgrade_yanfeng_v20083.default|1|155da8a8d56|1335|1ea041c4|3cdea49fcbd342d8a23cda9c3f761dbd|0
+17:install_yanfeng.default|1|155da8a8da0|5b7|56699b55|76e9c54cbff144928e4ffc72acf90d35|0
+1d:upgrade_yanfeng_v2009.default|1|155da8a8d88|1333|80ac4160|905a65826d604cf7b2495dac6e9b01a3|0
+13:feature_yanfeng.xml|1|155da8a8d49|6b4|7bd200b0|0a59bdab418c49a8bfccc2394acdc65b|0

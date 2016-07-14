@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcTypeDisplayRule hiddenTypeName="YF4_Criteria" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="YF4_Requirement" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+</Add>
+</TcBusinessData>

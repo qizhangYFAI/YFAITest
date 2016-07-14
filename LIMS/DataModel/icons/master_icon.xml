@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataIncludes>
+    <include iconfile="YF4TestMethodRev16.png"/>
+    <include iconfile="YF4Paragraph216.png"/>
+    <include iconfile="YF4TestRev16.png"/>
+    <include iconfile="YF4DVPRev16.png"/>
+    <include iconfile="YF4Requirement16.png"/>
+    <include iconfile="YF4EquipmentRev16.png"/>
+    <include iconfile="YF4Phase16.png"/>
+    <include iconfile="YF4Sample16.png"/>
+    <include iconfile="YF4ParagraphRev216.png"/>
+    <include iconfile="YF4DVP16.png"/>
+    <include iconfile="YF4FixtureRev16.png"/>
+    <include iconfile="YF4Specifications16.png"/>
+    <include iconfile="YF4CriteriasRev16.png"/>
+    <include iconfile="YF4SampleRev16.png"/>
+    <include iconfile="YF4TDM16.png"/>
+    <include iconfile="YF4RequirementRev16.png"/>
+    <include iconfile="YF4SpecificationsRev16.png"/>
+    <include iconfile="YF4Test16.png"/>
+    <include iconfile="YF4TestMethod16.png"/>
+    <include iconfile="YF4TestRequestRev16.png"/>
+    <include iconfile="YF4Equipment16.png"/>
+    <include iconfile="YF4TestRequest16.png"/>
+    <include iconfile="YF4Fixture16.png"/>
+    <include iconfile="YF4PhaseRev16.png"/>
+    <include iconfile="YF4Criterias16.png"/>
+    <include iconfile="YF4TDMRev16.png"/>
+    <include iconfile="YF4SampleType16.png"/>
+    <include iconfile="YF4SampleTypeRev16.png"/>
+</TcBusinessDataIncludes>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <Condition name="YF4_isLeadEngineer" expression="u.role_name=&quot;Verification Engineer&quot;"
+       secured="false" description="">
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <Condition name="YF4_isYF4_MoldCreatable" expression="u.group_name=&quot;*&quot;"
+       secured="false" description="">
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <Condition name="YF4_isYF4_PDWorkOrderCreatable" expression="u.group_name=&quot;*&quot;"
+       secured="false" description="">
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <Condition name="YF4_isYF4_ProtWorkOrderCreatable" expression="u.group_name=&quot;*&quot;"
+       secured="false" description="">
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+   <Condition name="YF4_isYF4_WorkOrderCreatable" expression="u.group_name=&quot;dba&quot;"
+       secured="false" description="">
+     <ConditionParameter name="u" parameterTypeName="UserSession"/>
+   </Condition>
+</Add>
+</TcBusinessData>

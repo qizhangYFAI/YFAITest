@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="YF4_Test" parentClassName="Item" isExportable="false" isUninstantiable="false"
+       isUninheritable="false" description=""/>
+   <TcClass className="YF4_TestMasterS" parentClassName="ItemMaster" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="YF4_TestRevMasterS" parentClassName="ItemVersionMaster" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="YF4_TestRevision" parentClassName="ItemRevision" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="yf4_work_order_status" description="Work Order Status"
+         attributeType="POM_string" maxStringLength="100" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="New" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_objective" description="Objective" attributeType="POM_string"
+         maxStringLength="2000" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_program_specific_setup" description="Program Specific Setup"
+         attributeType="POM_string" maxStringLength="4000" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_comments" description="Comments" attributeType="POM_string"
+         maxStringLength="4000" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_program_name" description="Program Name" attributeType="POM_string"
+         maxStringLength="255" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_test_location" description="Test Location" attributeType="POM_string"
+         maxStringLength="100" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_quantity_tested" description="Quantity Tested"
+         attributeType="POM_int" maxStringLength="0" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_baseline_start_date" description="Baseline Start Date"
+         attributeType="POM_date" maxStringLength="0" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_baseline_complete_date" description="Baseline Completion Date"
+         attributeType="POM_date" maxStringLength="0" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_lead_time" description="Lead Time" attributeType="POM_int"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_duration" description="Duration" attributeType="POM_int"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_confirmed_start_date" description="Confirmed Start Date"
+         attributeType="POM_date" maxStringLength="0" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_confirmed_complete_date" description="Confirmed Completion Date"
+         attributeType="POM_date" maxStringLength="0" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_actual_start_date" description="Actual Start Date"
+         attributeType="POM_date" maxStringLength="0" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_actual_complete_date" description="Actual Completion Date"
+         attributeType="POM_date" maxStringLength="0" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_test_result_comment" description="Test Result Reason Comment"
+         attributeType="POM_string" maxStringLength="200" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_technicians" description="Technician(s)" attributeType="POM_string"
+         maxStringLength="100" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_planned_costs" description="Planned Costs" attributeType="POM_double"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_actual_costs" description="Actual Costs" attributeType="POM_double"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_test_sample_result" description="Test Sample Result"
+         attributeType="POM_string" maxStringLength="100" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_error_type" description="Error Type" attributeType="POM_string"
+         maxStringLength="300" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_retest" description="Retest" attributeType="POM_logical"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""/>
+     <TcAttribute attributeName="yf4_data_observations" description="Data/Observations"
+         attributeType="POM_string" maxStringLength="2000" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_dvp_notes_comments" description="DVP Notes and Comments"
+         attributeType="POM_string" maxStringLength="4000" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_deviation_to_method" description="Deviation to Method"
+         attributeType="POM_string" maxStringLength="2000" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_assigned_to" description="Assigned to" attributeType="POM_string"
+         maxStringLength="2000" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_test_engineer" description="Test Engineer" attributeType="POM_string"
+         maxStringLength="100" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_Department" description="" attributeType="POM_string"
+         maxStringLength="100" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_Planned_Start_Date" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_Planned_Completion_Date" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_Variant" description="" attributeType="POM_string"
+         maxStringLength="200" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_result" description="" attributeType="POM_double"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_rating" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_Responsible" description="" attributeType="POM_string"
+         maxStringLength="100" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_Accreditation" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="yf4_Technician" description="" attributeType="POM_string"
+         maxStringLength="100" isArray="true" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         arrayLength="-1" isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="yf4_paragraph_test" description="" attributeType="POM_typed_reference"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" typedRefClassName="YF4_ParaRevision"/>
+   </TcClass>
+   <OperationInputType typeName="YF4_TestCreI" parentTypeName="ItemCreI" typeClassName="YF4_TestCreI"
+       description="" isAbstract="false" artifactName="YF4_TestCreI"/>
+   <OperationInputType typeName="YF4_TestMasterCreI" parentTypeName="Item MasterCreI"
+       typeClassName="YF4_TestMasterCreI" description="" isAbstract="false" artifactName="YF4_TestMasterCreI"/>
+   <OperationInputType typeName="YF4_TestMasterSCreI" parentTypeName="ItemMasterCreI"
+       typeClassName="YF4_TestMasterSCreI" description="" isAbstract="false" artifactName="YF4_TestMasterSCreI"/>
+   <OperationInputType typeName="YF4_TestMasterSSvAI" parentTypeName="ItemMasterSvAI"
+       typeClassName="YF4_TestMasterSSvAI" description="" isAbstract="false" artifactName="YF4_TestMasterSSvAI"/>
+   <OperationInputType typeName="YF4_TestMasterSvAI" parentTypeName="Item MasterSvAI"
+       typeClassName="YF4_TestMasterSvAI" description="" isAbstract="false" artifactName="YF4_TestMasterSvAI"/>
+   <OperationInputType typeName="YF4_TestRevMasterSCreI" parentTypeName="ItemVersionMasterCreI"
+       typeClassName="YF4_TestRevMasterSCreI" description="" isAbstract="false" artifactName="YF4_TestRevMasterSCreI"/>
+   <OperationInputType typeName="YF4_TestRevMasterSSvAI" parentTypeName="ItemVersionMasterSvAI"
+       typeClassName="YF4_TestRevMasterSSvAI" description="" isAbstract="false" artifactName="YF4_TestRevMasterSSvAI"/>
+   <OperationInputType typeName="YF4_TestRevisionCreI" parentTypeName="ItemRevisionCreI"
+       typeClassName="YF4_TestRevisionCreI" description="" isAbstract="false" artifactName="YF4_TestRevisionCreI">
+     <OperationInputProperty propName="yf4_work_order_status" compoundObjectConstant=""
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="yf4_confirmed_complete_date" compoundObjectConstant=""
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="yf4_confirmed_start_date" compoundObjectConstant=""
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="yf4_test_sample_result" compoundObjectConstant=""
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="yf4_paragraph_test" compoundObjectConstant=""
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="YF4_TestRevisionMasterCreI" parentTypeName="ItemRevision MasterCreI"
+       typeClassName="YF4_TestRevisionMasterCreI" description="" isAbstract="false"
+       artifactName="YF4_TestRevisionMasterCreI"/>
+   <OperationInputType typeName="YF4_TestRevisionMasterSvAI" parentTypeName="ItemRevision MasterSvAI"
+       typeClassName="YF4_TestRevisionMasterSvAI" description="" isAbstract="false"
+       artifactName="YF4_TestRevisionMasterSvAI"/>
+   <OperationInputType typeName="YF4_TestRevisionRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="YF4_TestRevisionRevI" description="" isAbstract="false" artifactName="YF4_TestRevisionRevI"/>
+   <OperationInputType typeName="YF4_TestRevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="YF4_TestRevisionSvAI" description="" isAbstract="false" artifactName="YF4_TestRevisionSvAI"/>
+   <OperationInputType typeName="YF4_TestSvAI" parentTypeName="ItemSvAI" typeClassName="YF4_TestSvAI"
+       description="" isAbstract="false" artifactName="YF4_TestSvAI"/>
+   <TcForm typeName="YF4_TestMaster" parentTypeName="Item Master" typeClassName="Form"
+       description="" isAbstract="false" artifactName="YF4_TestMaster" formStorageClassName="YF4_TestMasterS"/>
+   <TcForm typeName="YF4_TestRevisionMaster" parentTypeName="ItemRevision Master"
+       typeClassName="Form" description="" isAbstract="false" artifactName="YF4_TestRevisionMaster"
+       formStorageClassName="YF4_TestRevMasterS"/>
+   <TcStandardType typeName="YF4_Test" parentTypeName="Item" typeClassName="YF4_Test"
+       description="" isAbstract="false" artifactName="YF4_Test"/>
+   <TcStandardType typeName="YF4_TestMasterS" parentTypeName="ItemMaster" typeClassName="YF4_TestMasterS"
+       description="" isAbstract="false" artifactName="YF4_TestMasterS"/>
+   <TcStandardType typeName="YF4_TestRevMasterS" parentTypeName="ItemVersionMaster"
+       typeClassName="YF4_TestRevMasterS" description="" isAbstract="false" artifactName="YF4_TestRevMasterS"/>
+   <TcStandardType typeName="YF4_TestRevision" parentTypeName="ItemRevision" typeClassName="YF4_TestRevision"
+       description="" isAbstract="false" artifactName="YF4_TestRevision">
+     <TcProperty propName="YF4_SampleReln" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="Relation with TestRevision as Primary and SampleRevision as Secondary"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="YF4_CriteriaReln" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="Relation with TestRevision as Primary and CriteriaRevision as Secondary"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="YF4_HardwareReln" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="Relation with TestRevision as Primary and FixtureRevision or EquipmentRevision as Secondary"
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="YF4_TestResultReln" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcStandardType>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="en_US"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="YF4_Test" value="YF4_TestCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="YF4_TestMaster" value="YF4_TestMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="YF4_TestMasterS" value="YF4_TestMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="YF4_TestRevision" value="YF4_TestRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="YF4_TestRevisionMaster"
+       value="YF4_TestRevisionMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="YF4_TestRevMasterS"
+       value="YF4_TestRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="YF4_Test" value="YF4_TestRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="YF4_Test" value="YF4_TestMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="YF4_TestRevision" value="YF4_TestRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="YF4_TestRevision" value="YF4_TestRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="YF4_Test" value="YF4_TestSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="YF4_TestMaster" value="YF4_TestMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="YF4_TestMasterS" value="YF4_TestMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="YF4_TestRevision" value="YF4_TestRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="YF4_TestRevisionMaster"
+       value="YF4_TestRevisionMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="YF4_TestRevMasterS"
+       value="YF4_TestRevMasterSSvAI"/>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_TestClass" targetValue="Comfort" subLOVName="YF4_ComfortSubClass"
+       conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_TestClass" targetValue="Dimensional"
+       subLOVName="YF4_DimensionalSubClass" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_TestClass" targetValue="Dynamic" subLOVName="YF4_DynamicSubClass"
+       conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_TestClass" targetValue="Electromagnetic Compatibility (EMC)"
+       subLOVName="YF4_EMCSubClass" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_TestClass" targetValue="Environmental"
+       subLOVName="YF4_EnvironmentalSubClass" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_TestClass" targetValue="Freeplay, Moments"
+       subLOVName="YF4_FreeplayMomentsSubClass" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_TestClass" targetValue="Functional"
+       subLOVName="YF4_FunctionalSubClass" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_TestClass" targetValue="Material Properties"
+       subLOVName="YF4_MaterialPropertiesSubClass" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_TestClass" targetValue="Mechanical Durability"
+       subLOVName="YF4_MechanicalDurabilitySubClass" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_TestClass" targetValue="Review" subLOVName="YF4_ReviewSubClass"
+       conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_TestClass" targetValue="Static Load"
+       subLOVName="YF4_StaticLoadSubClass" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_TestClass" targetValue="Vibration" subLOVName="YF4_VibrationSubClass"
+       conditionName="isTrue"/>
+</Add>
+</TcBusinessData>

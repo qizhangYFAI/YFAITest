@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestRevision" status="Approved">Test Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_Test" status="Approved">Test</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_Accreditation" status="Approved">Accreditation</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_Department" status="Approved">Department</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_Planned_Completion_Date"
+       status="Approved">Planned Completion Date</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_Planned_Start_Date"
+       status="Approved">Planned Start Date</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_Responsible" status="Approved">Responsible</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_Technician" status="Approved">Technician(s)</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_Variant" status="Approved">Variant</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_actual_complete_date"
+       status="Approved">Actual Completion Date</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_actual_costs" status="Approved">Actual Costs</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_actual_start_date"
+       status="Approved">Actual Start Date</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_assigned_to" status="Approved">Assigned to</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_baseline_complete_date"
+       status="Approved">Baseline Completion Date</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_baseline_start_date"
+       status="Approved">Baseline Start Date</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_comments" status="Approved">Judgment Comments</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_confirmed_complete_date"
+       status="Approved">Confirmed Completion Date</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_confirmed_start_date"
+       status="Approved">Confirmed Start Date</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_data_observations"
+       status="Approved">Data/Observations</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_deviation_to_method"
+       status="Approved">Deviation to Method</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_duration" status="Approved">Duration</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_dvp_notes_comments"
+       status="Approved">DVP Notes and Comments</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_error_type" status="Approved">Error Type</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_lead_time" status="Approved">Z_NOTUSED</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_objective" status="Approved">Objective</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_paragraph_test" status="Approved">Paragraph</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_planned_costs" status="Approved">Z_NOT_USED</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_program_name" status="Approved">Z_NOTUSED</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_program_specific_setup"
+       status="Approved">Program Specific Setup</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_quantity_tested" status="Approved">Quantity Tested</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_rating" status="Approved">Judgment</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_result" status="Approved">Result</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_retest" status="Approved">Retest</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_technicians" status="Approved">Z_NOTUSED</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_test_engineer" status="Approved">Test Engineer</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_test_location" status="Approved">Test Location</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_test_result_comment"
+       status="Approved">Test Result Reason Comment</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_test_sample_result"
+       status="Approved">Test Sample Result</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_work_order_status"
+       status="Approved">Work Order Status</key>
+   <key locale="en_US" id="Property{::}YF4_Test{::}item_id" status="Approved">Test ID</key>
+   <key locale="en_US" id="Property{::}YF4_Test{::}owning_user" status="Approved">Owner</key>
+</Add>
+</TcBusinessDataLocalization>

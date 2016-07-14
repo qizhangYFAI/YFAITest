@@ -1,0 +1,84 @@
+--------------------------------------------------------------------------------
+Date: 14-Jul-2016_10-38-10
+--------------------------------------------------------------------------------
+Loading project: "YanFeng"
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lov.xml Line:1060 
+Invalid characters were found in " value=Brennprüfungen FY09". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lov.xml Line:1061 
+Invalid characters were found in " value=Brennprüfungen FY10". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lov.xml Line:1062 
+Invalid characters were found in " value=Brennprüfungen FY11". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lov.xml Line:1285 
+Invalid characters were found in " value=E60 MÜ China Lang". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lov.xml Line:1286 
+Invalid characters were found in " value=E60 MÜ Motorsport M5". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lov.xml Line:1287 
+Invalid characters were found in " value=E60 MÜ". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lov.xml Line:1336 
+Invalid characters were found in " value=F07 Türverkleidung". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lov.xml Line:1650 
+Invalid characters were found in " value=Kopfstützen". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lov.xml Line:2129 
+Invalid characters were found in " value=Skoda A05 Kopfstütze". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lov.xml Line:2267 
+Invalid characters were found in " value=TÜV HR BR218 / BR222". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lov.xml Line:2288 
+Invalid characters were found in " value=Überherrn DE". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lov.xml Line:2289 
+Invalid characters were found in " value=Überherrn EN". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\businessobjects.xml Line:6680 
+Invalid characters were found in " value=JCI Rumänien". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lang\en_US\businessobjects_en_US.xml Line: 256 
+Invalid characters were found in "JCI Rumänien". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lang\en_US\businessobjects_en_US.xml Line: 399 
+Invalid characters were found in "Brennprüfungen FY09". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lang\en_US\businessobjects_en_US.xml Line: 400 
+Invalid characters were found in "Brennprüfungen FY10". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lang\en_US\businessobjects_en_US.xml Line: 401 
+Invalid characters were found in "Brennprüfungen FY11". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lang\en_US\businessobjects_en_US.xml Line: 402 
+Invalid characters were found in "E60 MÜ China Lang". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lang\en_US\businessobjects_en_US.xml Line: 403 
+Invalid characters were found in "E60 MÜ Motorsport M5". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lang\en_US\businessobjects_en_US.xml Line: 404 
+Invalid characters were found in "E60 MÜ". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lang\en_US\businessobjects_en_US.xml Line: 405 
+Invalid characters were found in "F07 Türverkleidung". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lang\en_US\businessobjects_en_US.xml Line: 406 
+Invalid characters were found in "Kopfstützen". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lang\en_US\businessobjects_en_US.xml Line: 407 
+Invalid characters were found in "Skoda A05 Kopfstütze". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lang\en_US\businessobjects_en_US.xml Line: 408 
+Invalid characters were found in "TÜV HR BR218 / BR222". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lang\en_US\businessobjects_en_US.xml Line: 409 
+Invalid characters were found in "Überherrn DE". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Error# BASE-10001: "ENCODING VALIDATION ERROR" - Z:\GitYFAI\LIMS\DataModel\extensions\lang\en_US\businessobjects_en_US.xml Line: 410 
+Invalid characters were found in "Überherrn EN". Please enter text that belongs to the character set: "us-ascii".
+Refer to the section named "Troubleshooting the Business Modeler IDE" in the documentation for more details.
+Model Information:The element(Release = tc9000.1.3)( defined in E:\Siemens\TC10\bmide\templates\relationshipviewer_template.xml ) is identical to the element defined in E:\Siemens\TC10\bmide\templates\foundation_template.xml. Hence the element( defined in E:\Siemens\TC10\bmide\templates\relationshipviewer_template.xml ) was ignored and not loaded.
+--------------------------------------------------------------------------------

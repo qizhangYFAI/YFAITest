@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}Requirement Revision" status="Approved">Z_COTS-Requirement Revision</key>
+   <key locale="en_US" id="BusinessObject{::}Requirement" status="Approved">Z_COTS-Requirement</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_CriteriaMasterS" status="Approved">YF4_CriteriaMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_CriteriaMaster" status="Approved">YF4_CriteriaMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_CriteriaReln" status="Approved">Criteria</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_CriteriaRevMasterS" status="Approved">YF4_CriteriaRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_CriteriaRevisionMaster" status="Approved">YF4_CriteriaRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_CriteriaRevision" status="Approved">NOT USED</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_Criteria" status="Approved">NOT USED</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_DVPMasterS" status="Approved">YF4_DVPMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_DVPMaster" status="Approved">YF4_DVPMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_DVPRevMasterS" status="Approved">YF4_DVPRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_DVPRevisionMaster" status="Approved">YF4_DVPRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_DVPRevision" status="Approved">DVP Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_DVP" status="Approved">DVP</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_EquipmentMasterS" status="Approved">YF4_EquipmentMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_EquipmentMaster" status="Approved">YF4_EquipmentMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_EquipmentRevMasterS" status="Approved">YF4_EquipmentRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_EquipmentRevisionMaster" status="Approved">YF4_EquipmentRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_EquipmentRevision" status="Approved">Equipment Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_Equipment" status="Approved">Equipment</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_FixtureMasterS" status="Approved">YF4_FixtureMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_FixtureMaster" status="Approved">YF4_FixtureMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_FixtureRevMasterS" status="Approved">YF4_FixtureRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_FixtureRevisionMaster" status="Approved">YF4_FixtureRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_FixtureRevision" status="Approved">Fixture Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_Fixture" status="Approved">Fixture</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_HardwareReln" status="Approved">Hardware</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_IGES" status="Approved">IGES</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_MoldMasterS" status="Approved">Mold Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_MoldMaster" status="Approved">Mold Master</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_MoldRevMasterS" status="Approved">Mold Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_MoldRevisionMaster" status="Approved">Mold Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_MoldRevision" status="Approved">Mold Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_Mold" status="Approved">Mold</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_PDWorkOrderMasterS" status="Approved">PD Work Order Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_PDWorkOrderMaster" status="Approved">PD Work Order Master</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_PDWorkOrderRevMasterS" status="Approved">PD Work Order Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_PDWorkOrderRevisionMaster" status="Approved">PD Work Order Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_PDWorkOrderRevision" status="Approved">Product Development Work Order Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_PDWorkOrder" status="Approved">Prod. Dev. Work Order</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_ParaMasterS" status="Approved">YF4_ParaMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_ParaMaster" status="Approved">YF4_ParaMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_ParaRevMasterS" status="Approved">YF4_ParaRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_ParaRevisionMaster" status="Approved">YF4_ParaRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_ParaRevision" status="Approved">Paragraph Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_Para" status="Approved">Paragraph</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_PhaseMasterS" status="Approved">YF4_PhaseMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_PhaseMaster" status="Approved">YF4_PhaseMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_PhaseRevMasterS" status="Approved">YF4_PhaseRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_PhaseRevisionMaster" status="Approved">YF4_PhaseRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_PhaseRevision" status="Approved">Phase Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_PhasesReln" status="Approved">Phases</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_Phase" status="Approved">Phase</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_ProtWOMasterS" status="Approved">Prot Work Order Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_ProtWOMaster" status="Approved">Prot Work Order Master</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_ProtWORevMasterS" status="Approved">Prot Work Order Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_ProtWORevisionMaster" status="Approved">Prot Work Order Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_ProtWORevision" status="Approved">COE Prototype Work Order Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_ProtWO" status="Approved">Prototype Work Order</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_RequirementMasterS" status="Approved">YF4_RequirementMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_RequirementMaster" status="Approved">YF4_RequirementMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_RequirementReln" status="Approved">Requirement</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_RequirementRevMasterS" status="Approved">YF4_RequirementRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_RequirementRevisionMaster" status="Approved">YF4_RequirementRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_RequirementRevision" status="Approved">NOT USED</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_Requirement" status="Approved">NOT USED</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_STEP" status="Approved">STEP</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_STL" status="Approved">STL</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SampleMasterS" status="Approved">YF4_SampleMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SampleMaster" status="Approved">YF4_SampleMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SampleReln" status="Approved">Sample</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SampleRevMasterS" status="Approved">YF4_SampleRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SampleRevisionMaster" status="Approved">YF4_SampleRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SampleRevision" status="Approved">Sample Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SampleTypeMasterS" status="Approved">Sample Type Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SampleTypeMaster" status="Approved">Sample Type Master</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SampleTypeRevMasterS" status="Approved">Sample Type Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SampleTypeRevisionMaster" status="Approved">Sample Type Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SampleTypeRevision" status="Approved">Sample Type Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SampleTypesReln" status="Approved">Sample Types</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SampleType" status="Approved">Sample Type</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SamplesReln" status="Approved">Samples</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_Sample" status="Approved">Sample</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SpecMasterS" status="Approved">YF4_SpecMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SpecMaster" status="Approved">YF4_SpecMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SpecRevMasterS" status="Approved">YF4_SpecRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SpecRevisionMaster" status="Approved">YF4_SpecRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_SpecRevision" status="Approved">Specification Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_Spec" status="Approved">Specification</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TDM_ReqtMasterS" status="Approved">YF4_TDM_ReqtMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TDM_ReqtMaster" status="Approved">YF4_TDM_ReqtMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TDM_ReqtRevMasterS" status="Approved">YF4_TDM_ReqtRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TDM_ReqtRevisionMaster" status="Approved">YF4_TDM_ReqtRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TDM_ReqtRevision" status="Approved">TDM Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TDM_Reqt" status="Approved">TDM</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestCorrlatnMasterS" status="Approved">YF4_TestCorrlatnMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestCorrlatnMaster" status="Approved">YF4_TestCorrlatnMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestCorrlatnRevMasterS" status="Approved">YF4_TestCorrlatnRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestCorrlatnRevisionMaster" status="Approved">YF4_TestCorrlatnRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestCorrlatnRevision" status="Approved">Criteria Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestCorrlatn" status="Approved">Criteria</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestMethodMasterS" status="Approved">YF4_TestMethodMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestMethodMaster" status="Approved">YF4_TestMethodMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestMethodReln" status="Approved">Test Method</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestMethodRevMasterS" status="Approved">YF4_TestMethodRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestMethodRevisionMaster" status="Approved">YF4_TestMethodRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestMethodRevision" status="Approved">Test Method Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestMethod" status="Approved">Test Method</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestReln" status="Approved">Test</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestReqObjMasterS" status="Approved">Test Req Obj Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestReqObjMaster" status="Approved">Test Req Obj Master</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestReqObjRevMasterS" status="Approved">Test Req Obj Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestReqObjRevisionMaster" status="Approved">Test Req Obj Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestReqObjRevision" status="Approved">Test Req Obj Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestReqObj" status="Approved">Test Request</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestRequestMasterS" status="Approved">YF4_TestRequestMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestRequestMaster" status="Approved">YF4_TestRequestMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestRequestRevMasterS" status="Approved">YF4_TestRequestRevMasterS</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestRequestRevisionMaster" status="Approved">YF4_TestRequestRevisionMaster</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestRequestRevision" status="Approved">Test Request Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestRequest" status="Approved">Z_NOTUSED</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestResultMasterS" status="Approved">Test Result Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestResultMaster" status="Approved">Sample Result Master</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestResultReln" status="Approved">Test Result</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestResultRevMasterS" status="Approved">Test Result Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestResultRevisionMaster" status="Approved">Sample Result Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestResultRevision" status="Approved">Sample Result Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestResult" status="Approved">Sample Result</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_TestsReln" status="Approved">Tests</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_WorkOrderMasterS" status="Approved">Work Order Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_WorkOrderMaster" status="Approved">Work Order Master</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_WorkOrderRevMasterS" status="Approved">Work Order Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_WorkOrderRevisionMaster" status="Approved">Work Order Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_WorkOrderRevision" status="Approved">Work Order Revision</key>
+   <key locale="en_US" id="BusinessObject{::}YF4_WorkOrder" status="Approved">Work Order</key>
+   <key locale="en_US" id="LOVValueDescription{::}YF4_COEProductBusinessUnit{::}Visor"
+       status="Approved">Visor</key>
+   <key locale="en_US" id="LOVValueDescription{::}YF4_ModelUsage{::}Customer" status="Approved">Customer</key>
+   <key locale="en_US" id="LOVValueDescription{::}YF4_ModelUsage{::}Internal" status="Approved">Internal</key>
+   <key locale="en_US" id="LOVValueDescription{::}YF4_ModelUsage{::}Order" status="Approved">Order</key>
+   <key locale="en_US" id="LOVValueDescription{::}YF4_ModelUsage{::}Sales/Show" status="Approved">Sales/Show</key>
+   <key locale="en_US" id="LOVValueDescription{::}YF4_ModelUsage{::}Validation" status="Approved">Validation</key>
+   <key locale="en_US" id="LOVValueDescription{::}YF4_WorkOrderType{::}COE Prototype Work Order"
+       status="Approved">COE Prototype Work Order</key>
+   <key locale="en_US" id="LOVValueDescription{::}YF4_WorkOrderType{::}Product Development Work Order"
+       status="Approved">Product Development Work Order</key>
+   <key locale="en_US" id="LOVValue{::}YF4_BuildEventType{::}AME Parts" status="Approved">AME Parts</key>
+   <key locale="en_US" id="LOVValue{::}YF4_BuildEventType{::}DV - Customer" status="Approved">DV - Customer</key>
+   <key locale="en_US" id="LOVValue{::}YF4_BuildEventType{::}DV - Validation" status="Approved">DV - Validation</key>
+   <key locale="en_US" id="LOVValue{::}YF4_BuildEventType{::}ED - Customer" status="Approved">ED - Customer</key>
+   <key locale="en_US" id="LOVValue{::}YF4_BuildEventType{::}ED - Validation" status="Approved">ED - Validation</key>
+   <key locale="en_US" id="LOVValue{::}YF4_BuildEventType{::}Misc. Engineering Parts"
+       status="Approved">Misc. Engineering Parts</key>
+   <key locale="en_US" id="LOVValue{::}YF4_BuildEventType{::}PV - Customer" status="Approved">PV - Customer</key>
+   <key locale="en_US" id="LOVValue{::}YF4_BuildEventType{::}PV - Validation" status="Approved">PV - Validation</key>
+   <key locale="en_US" id="LOVValue{::}YF4_BuildEventType{::}Packaging Parts" status="Approved">Packaging Parts</key>
+   <key locale="en_US" id="LOVValue{::}YF4_BuildEventType{::}Quality Parts" status="Approved">Quality Parts</key>
+   <key locale="en_US" id="LOVValue{::}YF4_BuildEventType{::}Supplier Support" status="Approved">Supplier Support</key>
+   <key locale="en_US" id="LOVValue{::}YF4_COEProductBusinessUnit{::}Battery Management"
+       status="Approved">Battery Management</key>
+   <key locale="en_US" id="LOVValue{::}YF4_COEProductBusinessUnit{::}Clusters - electronics"
+       status="Approved">Clusters - electronics</key>
+   <key locale="en_US" id="LOVValue{::}YF4_COEProductBusinessUnit{::}Compass - electronics"
+       status="Approved">Compass - electronics</key>
+   <key locale="en_US" id="LOVValue{::}YF4_COEProductBusinessUnit{::}Door Panels"
+       status="Approved">Door Panels</key>
+   <key locale="en_US" id="LOVValue{::}YF4_COEProductBusinessUnit{::}Electronics (General)"
+       status="Approved">Electronics (General)</key>
+   <key locale="en_US" id="LOVValue{::}YF4_COEProductBusinessUnit{::}Floor Consoles"
+       status="Approved">Floor Consoles</key>
+   <key locale="en_US" id="LOVValue{::}YF4_COEProductBusinessUnit{::}Garnish" status="Approved">Garnish</key>
+   <key locale="en_US" id="LOVValue{::}YF4_COEProductBusinessUnit{::}HFT - electronics"
+       status="Approved">HFT - electronics</key>
+   <key locale="en_US" id="LOVValue{::}YF4_COEProductBusinessUnit{::}HMLK - electronics"
+       status="Approved">HMLK - electronics</key>
+   <key locale="en_US" id="LOVValue{::}YF4_COEProductBusinessUnit{::}Instrument Panels"
+       status="Approved">Instrument Panels</key>
+   <key locale="en_US" id="LOVValue{::}YF4_COEProductBusinessUnit{::}Overhead Consolers"
+       status="Approved">Overhead Consolers</key>
+   <key locale="en_US" id="LOVValue{::}YF4_COEProductBusinessUnit{::}Overhead Systems"
+       status="Approved">Overhead Systems</key>
+   <key locale="en_US" id="LOVValue{::}YF4_COEProductBusinessUnit{::}Soft Trim Cell"
+       status="Approved">Soft Trim Cell</key>
+   <key locale="en_US" id="LOVValue{::}YF4_COEProductBusinessUnit{::}Visor" status="Approved">Visor</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CommRatingReason1{::}1 - Unacceptable: No contact start of project"
+       status="Approved">1 - Unacceptable: No contact start of project</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CommRatingReason1{::}1 - Unacceptable: No contact w/ project finished"
+       status="Approved">1 - Unacceptable: No contact w/ project finished</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CommRatingReason1{::}1 - Unacceptable: Poor communication during project"
+       status="Approved">1 - Unacceptable: Poor communication during project</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CommRatingReason1{::}1 - Unacceptable: See Comments..."
+       status="Approved">1 - Unacceptable: See Comments...</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CommRatingReason{::}2 - Less Than Full Performance: No contact start of project"
+       status="Approved">2 - Less Than Full Performance: No contact start of project</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CommRatingReason{::}2 - Less Than Full Performance: No contact w/ project finished"
+       status="Approved">2 - Less Than Full Performance: No contact w/ project finished</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CommRatingReason{::}2 - Less Than Full Performance: Poor communication during project"
+       status="Approved">2 - Less Than Full Performance: Poor communication during project</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CommRatingReason{::}2 - Less Than Full Performance: See Comments..."
+       status="Approved">2 - Less Than Full Performance: See Comments...</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Advanced" status="Approved">Advanced</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Audi" status="Approved">Audi</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}BMW" status="Approved">BMW</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}CPP" status="Approved">CPP</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}DCX" status="Approved">DCX</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Ford" status="Approved">Ford</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}GM" status="Approved">GM</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Honda" status="Approved">Honda</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Internal JCI" status="Approved">Internal JCI</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Jaguar" status="Approved">Jaguar</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Kia/Hyundai" status="Approved">Kia/Hyundai</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Mazda" status="Approved">Mazda</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Mercedes" status="Approved">Mercedes</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Misc." status="Approved">Misc.</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Mitsubushi" status="Approved">Mitsubushi</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Nissan" status="Approved">Nissan</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}PSA" status="Approved">PSA</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Renault" status="Approved">Renault</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Rover" status="Approved">Rover</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Subaru" status="Approved">Subaru</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Toyota" status="Approved">Toyota</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}VW" status="Approved">VW</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerBusinessUnit{::}Volvo" status="Approved">Volvo</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}AATCC" status="Approved">AATCC</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}ASTM" status="Approved">ASTM</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}AUDI" status="Approved">AUDI</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}BMW" status="Approved">BMW</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}C-NCAP" status="Approved">C-NCAP</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Chrysler" status="Approved">Chrysler</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}DIN" status="Approved">DIN</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Daimler" status="Approved">Daimler</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Delphi" status="Approved">Delphi</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}ECE" status="Approved">ECE</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}EEC" status="Approved">EEC</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}EuroNCAP" status="Approved">EuroNCAP</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}FEA / CAE" status="Approved">FEA / CAE</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}FMVSS" status="Approved">FMVSS</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Fiat" status="Approved">Fiat</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Ford" status="Approved">Ford</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}GB" status="Approved">GB</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}GM" status="Approved">GM</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Honda" status="Approved">Honda</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Hyundai/Kia" status="Approved">Hyundai/Kia</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}IEC Internat. Electronical Commission"
+       status="Approved">IEC Internat. Electronical Commission</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}ISO" status="Approved">ISO</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}JCI Burscheid" status="Approved">JCI Burscheid</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}JCI Conflans" status="Approved">JCI Conflans</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}JCI Creutzwald" status="Approved">JCI Creutzwald</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}JCI Grefrath" status="Approved">JCI Grefrath</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}JCI Rumänien" status="Approved">JCI Rumänien</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}JCI Wuppertal" status="Approved">JCI Wuppertal</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}JIS" status="Approved">JIS</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Jaguar" status="Approved">Jaguar</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}JapanNCAP" status="Approved">JapanNCAP</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}KMVSS" status="Approved">KMVSS</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Land Rover" status="Approved">Land Rover</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Mazda" status="Approved">Mazda</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Mitsubishi" status="Approved">Mitsubishi</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}NHTSA" status="Approved">NHTSA</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Navistar" status="Approved">Navistar</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Nissan" status="Approved">Nissan</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Porsche" status="Approved">Porsche</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Renault" status="Approved">Renault</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}SAE" status="Approved">SAE</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Skoda" status="Approved">Skoda</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Subaru" status="Approved">Subaru</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Suzuki" status="Approved">Suzuki</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Toyota" status="Approved">Toyota</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}VDA" status="Approved">VDA</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}VW" status="Approved">VW</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}Volvo" status="Approved">Volvo</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}YFAI  Papa/Zatec" status="Approved">YFAI  Papa/Zatec</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}YFAI Holland MI" status="Approved">YFAI Holland MI</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}YFAI Lueneburg" status="Approved">YFAI Lueneburg</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}YFAI Namestovo" status="Approved">YFAI Namestovo</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}YFAI Neuss" status="Approved">YFAI Neuss</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}YFAI Neustadt" status="Approved">YFAI Neustadt</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}YFAI Rastatt" status="Approved">YFAI Rastatt</key>
+   <key locale="en_US" id="LOVValue{::}YF4_CustomerList{::}YFAI" status="Approved">YFAI</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Gap_Status{::}N/A - Not Applicable" status="Approved">N/A - Not Applicable</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ModelUsage{::}Customer" status="Approved">Customer</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ModelUsage{::}Internal" status="Approved">Internal</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ModelUsage{::}Order" status="Approved">Order</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ModelUsage{::}Sales/Show" status="Approved">Sales/Show</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ModelUsage{::}Validation" status="Approved">Validation</key>
+   <key locale="en_US" id="LOVValue{::}YF4_MoldStorageLocations{::}Advanced Composites"
+       status="Approved">Advanced Composites</key>
+   <key locale="en_US" id="LOVValue{::}YF4_MoldStorageLocations{::}Customer" status="Approved">Customer</key>
+   <key locale="en_US" id="LOVValue{::}YF4_MoldStorageLocations{::}Disposed" status="Approved">Disposed</key>
+   <key locale="en_US" id="LOVValue{::}YF4_MoldStorageLocations{::}PD" status="Approved">PD</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ProdDevWorkOrderType{::}Advanced" status="Approved">Advanced</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ProdDevWorkOrderType{::}External Customer"
+       status="Approved">External Customer</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ProdDevWorkOrderType{::}Launch" status="Approved">Launch</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ProdDevWorkOrderType{::}Production" status="Approved">Production</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ProdDevWorkOrderType{::}Support" status="Approved">Support</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ProductDevelopmentPBU{::}Advanced Composites"
+       status="Approved">Advanced Composites</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ProductDevelopmentPBU{::}BLD" status="Approved">BLD</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ProductDevelopmentPBU{::}CNC / 3D printing"
+       status="Approved">CNC / 3D printing</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ProductDevelopmentPBU{::}CSW" status="Approved">CSW</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ProductDevelopmentPBU{::}OHP" status="Approved">OHP</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ProductDevelopmentPBU{::}Other" status="Approved">Other</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ProductDevelopmentPBU{::}PD EE" status="Approved">PD EE</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ProductDevelopmentPBU{::}Trim / Deco" status="Approved">Trim / Deco</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ProductDevelopmentWorkType{::}Advanced"
+       status="Approved">Advanced</key>
+   <key locale="en_US" id="LOVValue{::}YF4_ProductDevelopmentWorkType{::}Support"
+       status="Approved">Support</key>
+   <key locale="en_US" id="LOVValue{::}YF4_QualityRatingReason1{::}1 - Unacceptable: Finish higher than necessary"
+       status="Approved">1 - Unacceptable: Finish higher than necessary</key>
+   <key locale="en_US" id="LOVValue{::}YF4_QualityRatingReason1{::}1 - Unacceptable: Finish less than expected"
+       status="Approved">1 - Unacceptable: Finish less than expected</key>
+   <key locale="en_US" id="LOVValue{::}YF4_QualityRatingReason1{::}1 - Unacceptable: Functionality less than expected"
+       status="Approved">1 - Unacceptable: Functionality less than expected</key>
+   <key locale="en_US" id="LOVValue{::}YF4_QualityRatingReason1{::}1 - Unacceptable: See Comments..."
+       status="Approved">1 - Unacceptable: See Comments...</key>
+   <key locale="en_US" id="LOVValue{::}YF4_QualityRatingReason{::}2 - Less Than Full Performance: Finish higher than necessary"
+       status="Approved">2 - Less Than Full Performance: Finish higher than necessary</key>
+   <key locale="en_US" id="LOVValue{::}YF4_QualityRatingReason{::}2 - Less Than Full Performance: Finish less than expected"
+       status="Approved">2 - Less Than Full Performance: Finish less than expected</key>
+   <key locale="en_US" id="LOVValue{::}YF4_QualityRatingReason{::}2 - Less Than Full Performance: Functionality less than expected"
+       status="Approved">2 - Less Than Full Performance: Functionality less than expected</key>
+   <key locale="en_US" id="LOVValue{::}YF4_QualityRatingReason{::}2 - Less Than Full Performance: See Comments..."
+       status="Approved">2 - Less Than Full Performance: See Comments...</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingOverall{::}1 - Unacceptable" status="Approved">1 - Unacceptable</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingOverall{::}2 - Less Than Full Performance"
+       status="Approved">2 - Less Than Full Performance</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingOverall{::}3 - Full Performance"
+       status="Approved">3 - Full Performance</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingOverall{::}4 - Excellent" status="Approved">4 - Excellent</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingOverall{::}5 - Distinguished" status="Approved">5 - Distinguished</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingReasonOverall1{::}1 - Unacceptable: Communication"
+       status="Approved">1 - Unacceptable: Communication</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingReasonOverall1{::}1 - Unacceptable: Quality"
+       status="Approved">1 - Unacceptable: Quality</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingReasonOverall1{::}1 - Unacceptable: See Comments..."
+       status="Approved">1 - Unacceptable: See Comments...</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingReasonOverall1{::}1 - Unacceptable: Timing"
+       status="Approved">1 - Unacceptable: Timing</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingReasonOverall{::}2 - Less Than Full Performance: Communication"
+       status="Approved">2 - Less Than Full Performance: Communication</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingReasonOverall{::}2 - Less Than Full Performance: Quality"
+       status="Approved">2 - Less Than Full Performance: Quality</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingReasonOverall{::}2 - Less Than Full Performance: See Comments..."
+       status="Approved">2 - Less Than Full Performance: See Comments...</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingReasonOverall{::}2 - Less Than Full Performance: Timing"
+       status="Approved">2 - Less Than Full Performance: Timing</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingsC{::}1 - Unacceptable" status="Approved">1 - Unacceptable</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingsC{::}2 - Less Than Full Performance"
+       status="Approved">2 - Less Than Full Performance</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingsC{::}3 - Full Performance" status="Approved">3 - Full Performance</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingsC{::}4 - Excellent" status="Approved">4 - Excellent</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingsC{::}5 - Distinguished" status="Approved">5 - Distinguished</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingsT{::}1 - Unacceptable" status="Approved">1 - Unacceptable</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingsT{::}2 - Less Than Full Performance"
+       status="Approved">2 - Less Than Full Performance</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingsT{::}3 - Full Performance" status="Approved">3 - Full Performance</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingsT{::}4 - Excellent" status="Approved">4 - Excellent</key>
+   <key locale="en_US" id="LOVValue{::}YF4_RatingsT{::}5 - Distinguished" status="Approved">5 - Distinguished</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Ratings{::}1 - Unacceptable" status="Approved">1 - Unacceptable</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Ratings{::}2 - Less Than Full Performance"
+       status="Approved">2 - Less Than Full Performance</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Ratings{::}3 - Full Performance" status="Approved">3 - Full Performance</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Ratings{::}4 - Excellent" status="Approved">4 - Excellent</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Ratings{::}5 - Distinguished" status="Approved">5 - Distinguished</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Test_Result{::}Att Ext" status="Approved">Att Ext</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Test_Result{::}Att Int" status="Approved">Att Int</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Test_Result{::}Cancelled" status="Approved">Cancelled</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Test_Result{::}Does Not Meet Requirement(s)"
+       status="Approved">Does Not Meet Requirement(s)</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Test_Result{::}Evaluation" status="Approved">Evaluation</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Test_Result{::}Meets Requirement(s)" status="Approved">Meets Requirement(s)</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Test_Result{::}NOK" status="Approved">NOK</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Test_Result{::}Not Satisfied" status="Approved">Not Satisfied</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Test_Result{::}Not Tested" status="Approved">Not Tested</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Test_Result{::}Notification" status="Approved">Notification</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Test_Result{::}OK" status="Approved">OK</key>
+   <key locale="en_US" id="LOVValue{::}YF4_Test_Result{::}Satisfied" status="Approved">Satisfied</key>
+   <key locale="en_US" id="LOVValue{::}YF4_TimingRatingReason1{::}1 - Unacceptable: Did not meet initial timing"
+       status="Approved">1 - Unacceptable: Did not meet initial timing</key>
+   <key locale="en_US" id="LOVValue{::}YF4_TimingRatingReason1{::}1 - Unacceptable: Did not meet revised timing"
+       status="Approved">1 - Unacceptable: Did not meet revised timing</key>
+   <key locale="en_US" id="LOVValue{::}YF4_TimingRatingReason1{::}1 - Unacceptable: See Comments..."
+       status="Approved">1 - Unacceptable: See Comments...</key>
+   <key locale="en_US" id="LOVValue{::}YF4_TimingRatingReason{::}2 - Less Than Full Performance: Did not meet initial timing"
+       status="Approved">2 - Less Than Full Performance: Did not meet initial timing</key>
+   <key locale="en_US" id="LOVValue{::}YF4_TimingRatingReason{::}2 - Less Than Full Performance: Did not meet revised timing"
+       status="Approved">2 - Less Than Full Performance: Did not meet revised timing</key>
+   <key locale="en_US" id="LOVValue{::}YF4_TimingRatingReason{::}2 - Less Than Full Performance: See Comments..."
+       status="Approved">2 - Less Than Full Performance: See Comments...</key>
+   <key locale="en_US" id="LOVValue{::}YF4_VehicleLOV{::}Brennprüfungen FY09" status="Approved">Brennprüfungen FY09</key>
+   <key locale="en_US" id="LOVValue{::}YF4_VehicleLOV{::}Brennprüfungen FY10" status="Approved">Brennprüfungen FY10</key>
+   <key locale="en_US" id="LOVValue{::}YF4_VehicleLOV{::}Brennprüfungen FY11" status="Approved">Brennprüfungen FY11</key>
+   <key locale="en_US" id="LOVValue{::}YF4_VehicleLOV{::}E60 MÜ China Lang" status="Approved">E60 MÜ China Lang</key>
+   <key locale="en_US" id="LOVValue{::}YF4_VehicleLOV{::}E60 MÜ Motorsport M5" status="Approved">E60 MÜ Motorsport M5</key>
+   <key locale="en_US" id="LOVValue{::}YF4_VehicleLOV{::}E60 MÜ" status="Approved">E60 MÜ</key>
+   <key locale="en_US" id="LOVValue{::}YF4_VehicleLOV{::}F07 Türverkleidung" status="Approved">F07 Türverkleidung</key>
+   <key locale="en_US" id="LOVValue{::}YF4_VehicleLOV{::}Kopfstützen" status="Approved">Kopfstützen</key>
+   <key locale="en_US" id="LOVValue{::}YF4_VehicleLOV{::}Skoda A05 Kopfstütze" status="Approved">Skoda A05 Kopfstütze</key>
+   <key locale="en_US" id="LOVValue{::}YF4_VehicleLOV{::}TÜV HR BR218 / BR222" status="Approved">TÜV HR BR218 / BR222</key>
+   <key locale="en_US" id="LOVValue{::}YF4_VehicleLOV{::}Überherrn DE" status="Approved">Überherrn DE</key>
+   <key locale="en_US" id="LOVValue{::}YF4_VehicleLOV{::}Überherrn EN" status="Approved">Überherrn EN</key>
+   <key locale="en_US" id="LOVValue{::}YF4_WorkOrderType{::}COE Prototype Work Order"
+       status="Approved">COE Prototype Work Order</key>
+   <key locale="en_US" id="LOVValue{::}YF4_WorkOrderType{::}Product Development Work Order"
+       status="Approved">Product Development Work Order</key>
+   <key locale="en_US" id="Property{::}YF4_DVPRevision{::}yf4_DVP_EPIC_No" status="Approved">DVP EPIC No</key>
+   <key locale="en_US" id="Property{::}YF4_DVPRevision{::}yf4_Milestones" status="Approved">Milestones (Dates)</key>
+   <key locale="en_US" id="Property{::}YF4_DVPRevision{::}yf4_customer" status="Approved">Customer</key>
+   <key locale="en_US" id="Property{::}YF4_DVPRevision{::}yf4_dvp_status" status="Approved">Status</key>
+   <key locale="en_US" id="Property{::}YF4_DVPRevision{::}yf4_model_year" status="Approved">Model Year</key>
+   <key locale="en_US" id="Property{::}YF4_DVPRevision{::}yf4_product" status="Approved">Product</key>
+   <key locale="en_US" id="Property{::}YF4_DVPRevision{::}yf4_program_number" status="Approved">Program Number</key>
+   <key locale="en_US" id="Property{::}YF4_DVPRevision{::}yf4_start_of_production"
+       status="Approved">Start of Production</key>
+   <key locale="en_US" id="Property{::}YF4_DVPRevision{::}yf4_vehicle" status="Approved">Vehicle</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_Calib_Certif_Nbr"
+       status="Approved">Calibration Certification Number</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_Calib_Lab_Name"
+       status="Approved">Calibration Lab Name</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_Calib_Procedure"
+       status="Approved">Calibration Procedure</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_Category" status="Approved">Category</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_Equipment_Number"
+       status="Approved">Equipment Number</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_Equipment_Status"
+       status="Approved">Status</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_Manufacturer"
+       status="Approved">Manufacturer</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_Out_End_Date"
+       status="Approved">Out End Date</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_Out_Start_Date"
+       status="Approved">Out Start Date</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_Parent_ID" status="Approved">Parent ID</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_Parent_Name" status="Approved">Parent Name</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_Serial_Number"
+       status="Approved">Serial Number</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_Status" status="Approved">Z_NOTUSED</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_accredited_calibration"
+       status="Approved">Accredited Calibration</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_adjustable_equipment"
+       status="Approved">Adjustable Equipm.</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_axis_channel"
+       status="Approved">Axis / Channel</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_calibration_due_date"
+       status="Approved">Calibration Due Date</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_calibration_freq"
+       status="Approved">Actual Calibration Frequency (months)</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_calibration_required"
+       status="Approved">Calibration Required</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_calibration_status"
+       status="Approved">Calibr. Status</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_department" status="Approved">Department</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_disposition" status="Approved">Disposition</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_equipment_comments"
+       status="Approved">Equipment Comments</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_location" status="Approved">Location</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_lst_date_of_calibration"
+       status="Approved">Last Date of Calibration</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_model" status="Approved">Model</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_range" status="Approved">Range</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_service_facility"
+       status="Approved">Service Facility</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_t2_axis_channel_ident"
+       status="Approved">T2.Axis / Channel Ident</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_t2_gage_accuracy"
+       status="Approved">T2.Gage Accuracy [%]</key>
+   <key locale="en_US" id="Property{::}YF4_EquipmentRevision{::}yf4_transd_fam" status="Approved">Transd. Fam.</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}item_revision_id" status="Approved">Revision Level</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}last_mod_date" status="Approved">Date Modified</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_customer" status="Approved">Customer</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_fixture_comments"
+       status="Approved">Fixture Comments</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_fixture_status"
+       status="Approved">Fixture Status</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_height" status="Approved">Height</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_length" status="Approved">Length</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_material" status="Approved">Material</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_model_year" status="Approved">Model Year</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_product" status="Approved">Product</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_program_name" status="Approved">Program Name</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_project_number"
+       status="Approved">Project Number</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_proposed_disposal_date"
+       status="Approved">Proposed Disposal Date</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_storage_location"
+       status="Approved">Storage Location</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_storage_place" status="Approved">Storage Place</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_system_of_measure"
+       status="Approved">Unit of Measure</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_type" status="Approved">Type</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_vehicle" status="Approved">Vehicle</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_weight" status="Approved">Weight</key>
+   <key locale="en_US" id="Property{::}YF4_FixtureRevision{::}yf4_width" status="Approved">Width</key>
+   <key locale="en_US" id="Property{::}YF4_Fixture{::}creation_date" status="Approved">Date Entered</key>
+   <key locale="en_US" id="Property{::}YF4_MoldRevision{::}yf4_DispositionDate" status="Approved">Disposition Date</key>
+   <key locale="en_US" id="Property{::}YF4_MoldRevision{::}yf4_MoldStorageLocation"
+       status="Approved">Mold Storage Location</key>
+   <key locale="en_US" id="Property{::}YF4_MoldRevision{::}yf4_PartName" status="Approved">Part Name</key>
+   <key locale="en_US" id="Property{::}YF4_MoldRevision{::}yf4_PartNumber" status="Approved">Part Quantity</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrderRevision{::}object_name" status="Approved">Short Description</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrderRevision{::}yf4_CadContactPhoneNumber"
+       status="Approved">Cad Contact Phone Number</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrderRevision{::}yf4_CadContact"
+       status="Approved">Cad Contact</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrderRevision{::}yf4_Comments" status="Approved">Comments</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrderRevision{::}yf4_Communication"
+       status="Approved">Communication</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrderRevision{::}yf4_Description"
+       status="Approved">Description</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrderRevision{::}yf4_FileLocations"
+       status="Approved">File Location(s)</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrderRevision{::}yf4_MoldStorageLocation"
+       status="Approved">Mold Storage Location</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrderRevision{::}yf4_PDBusinessUnit"
+       status="Approved">PD Business Unit</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrderRevision{::}yf4_PartColor" status="Approved">Part Color</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrderRevision{::}yf4_PartMaterial"
+       status="Approved">Part Material</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrderRevision{::}yf4_ProdDevWorkOrderType"
+       status="Approved">Product Development Work Order Type</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrderRevision{::}yf4_Quaility" status="Approved">Quality</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrderRevision{::}yf4_RatingOverall"
+       status="Approved">Rating Overall</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrderRevision{::}yf4_Timing" status="Approved">Timing</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrder{::}item_id" status="Approved">Work Order Number</key>
+   <key locale="en_US" id="Property{::}YF4_PDWorkOrder{::}object_name" status="Approved">Project Name</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}item_id" status="Approved">ID</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_Cost_per_Para_for_Eur"
+       status="Approved">Cost per Para for Europe</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_Cost_per_Para_for_US"
+       status="Approved">Cost per Para for US</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_Department" status="Approved">Department</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_Location" status="Approved">Location</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_Test_Order" status="Approved">Test Order</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_additional_notes" status="Approved">Additional Notes</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_comments" status="Approved">Comments for Assessment Method</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_cost_per_para_per_loc"
+       status="Approved">Z_NOT_USED</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_duration_days" status="Approved">Duration</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_duration" status="Approved">Z_NOTUSED</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_evaluation_criteria"
+       status="Approved">Evaluation Criteria</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_lead_time_days" status="Approved">Lead Time (days)</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_lead_time" status="Approved">Z_NOTUSED</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_overall_test_result"
+       status="Approved">Overall Test Result</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_paragraph_id" status="Approved">Paragraph ID</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_phase_1_assessment"
+       status="Approved">Assessment Method</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_phase_1_gap_status"
+       status="Approved">Gap Status</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_phase_1_performance"
+       status="Approved">Performance</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_phase_2_assessment"
+       status="Approved">Assessment Method</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_phase_2_gap_status"
+       status="Approved">Gap Status</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_phase_2_performance"
+       status="Approved">Performance</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_phase_3_assessment"
+       status="Approved">Assessment Method</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_phase_3_gap_status"
+       status="Approved">Gap Status</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_phase_3_performance"
+       status="Approved">Performance</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_phase_4_assessment"
+       status="Approved">Assessment Method</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_phase_4_gap_status"
+       status="Approved">Gap Status</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_phase_4_performance"
+       status="Approved">Performance</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_phase_5_assessment"
+       status="Approved">Assessment Method</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_phase_5_gap_status"
+       status="Approved">Gap Status</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_phase_5_performance"
+       status="Approved">Performance</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_publisher_tdm" status="Approved">Publisher (TDM)</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_publisher" status="Approved">Publisher</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_requirement_status"
+       status="Approved">Requirement Status</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_spec_ref_num_tdm" status="Approved">Specification Reference Number (TDM)</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_spec_ref_num" status="Approved">Specification Reference Number</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_spec_rev_level_tdm"
+       status="Approved">Specification Revision Level (TDM)</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_spec_rev_level" status="Approved">Specification Revision Level</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_specification_name_tdm"
+       status="Approved">Specification Name (TDM)</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_specification_name"
+       status="Approved">Specification Name</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_specification_test_id"
+       status="Approved">Specification Test ID</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_specification_type"
+       status="Approved">Specification Type</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_status" status="Approved">Status</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_test_class" status="Approved">Test Class</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_test_description" status="Approved">Test Description</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_test_name_compound"
+       status="Approved">Test Name</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_test_status" status="Approved">Test Status</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_test_subclass" status="Approved">Test Subclass</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_verification_planning"
+       status="Approved">Verification Planning</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_wo_status" status="Approved">WO Status</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_wo_test_name" status="Approved">Work Order Test Name</key>
+   <key locale="en_US" id="Property{::}YF4_ParaRevision{::}yf4_work_order_num" status="Approved">Work Order number</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_additional_costs"
+       status="Approved">Additional Costs</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_aqe_bu" status="Approved">AQE BU</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_aqe_plant" status="Approved">AQE Plant</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_end_date" status="Approved">End Date</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_engg_controller_bu"
+       status="Approved">Engineering Controller - BU/APDS contact(s)</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_labor_costs" status="Approved">Labor Costs</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_logistic_launch" status="Approved">Logistic Launch</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_phase_type" status="Approved">Phase Type</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_planned_test_costs"
+       status="Approved">Planned Test Costs</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_product_engg" status="Approved">Z_NOTUSED</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_program_manager" status="Approved">Program Manager</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_project_number" status="Approved">Project Number</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_prototype_cood" status="Approved">Prototype Coordinator</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_responsible_engg"
+       status="Approved">Responsible Engineer</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_revision_reason" status="Approved">Revision Reason</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_tdm_id" status="Approved">TDM ID</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_unforseeable_costs"
+       status="Approved">Unforseeable Costs</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_validation_engg_1"
+       status="Approved">Validation Engineer 1</key>
+   <key locale="en_US" id="Property{::}YF4_PhaseRevision{::}yf4_validation_engg_2"
+       status="Approved">Validation Engineer 2 (deputy)</key>
+   <key locale="en_US" id="Property{::}YF4_ProtWORevision{::}yf4_BuildEventType" status="Approved">Build Event Type</key>
+   <key locale="en_US" id="Property{::}YF4_ProtWORevision{::}yf4_Comments" status="Approved">Comments</key>
+   <key locale="en_US" id="Property{::}YF4_ProtWORevision{::}yf4_CustomerBusinessUnit"
+       status="Approved">Customer Business Unit</key>
+   <key locale="en_US" id="Property{::}YF4_ProtWORevision{::}yf4_Description" status="Approved">Description</key>
+   <key locale="en_US" id="Property{::}YF4_ProtWORevision{::}yf4_FileLocations" status="Approved">File Location(s)</key>
+   <key locale="en_US" id="Property{::}YF4_ProtWORevision{::}yf4_PreferredVendor"
+       status="Approved">Preferred Vendor</key>
+   <key locale="en_US" id="Property{::}YF4_ProtWORevision{::}yf4_ProductBusinessUnit"
+       status="Approved">Product Business Unit</key>
+   <key locale="en_US" id="Property{::}YF4_ProtWORevision{::}yf4_WORevisedDueDate"
+       status="Approved">Work Order Revised Due Date</key>
+   <key locale="en_US" id="Property{::}YF4_ProtWO{::}object_name" status="Approved">Name</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}item_revision_id" status="Approved">Revision Level</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_Deviation" status="Approved">Deviation</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_Quality_level" status="Approved">Quality level</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_Rating" status="Approved">Rating</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_actual_build_date"
+       status="Approved">Actual Build Date</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_actual_receipt_date"
+       status="Approved">Actual Receipt Date</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_comments" status="Approved">Comments</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_confirmed_delivery_date"
+       status="Approved">Confirmed delivery Date</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_internal_part_num_comp"
+       status="Approved">Internal Part Number</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_internal_part_number"
+       status="Approved">Internal Part Number</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_object_name" status="Approved">Name</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_oem_part_num_compound"
+       status="Approved">OEM Part Number</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_oem_part_number"
+       status="Approved">OEM Part Number</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_recommendation" status="Approved">Recommendation</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_requested_delivery_date"
+       status="Approved">Requested delivery date</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_sample_level" status="Approved">Sample Level</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_sample_qty" status="Approved">Sample quantity</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_sample_type_name"
+       status="Approved">Z_NOTUSED</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_status" status="Approved">Status</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_storage_location"
+       status="Approved">Storage Location</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_storage_place" status="Approved">Storage Place</key>
+   <key locale="en_US" id="Property{::}YF4_SampleRevision{::}yf4_test_id" status="Approved">Test Id</key>
+   <key locale="en_US" id="Property{::}YF4_SampleTypeRevision{::}yf4_Color_code" status="Approved">Color code</key>
+   <key locale="en_US" id="Property{::}YF4_SampleTypeRevision{::}yf4_Material_grade"
+       status="Approved">Material grade</key>
+   <key locale="en_US" id="Property{::}YF4_SampleTypeRevision{::}yf4_Material_type"
+       status="Approved">Material type</key>
+   <key locale="en_US" id="Property{::}YF4_SampleTypeRevision{::}yf4_Texture" status="Approved">Texture</key>
+   <key locale="en_US" id="Property{::}YF4_SampleTypeRevision{::}yf4_internal_part_number"
+       status="Approved">Internal Part Number</key>
+   <key locale="en_US" id="Property{::}YF4_SampleTypeRevision{::}yf4_oem_part_number"
+       status="Approved">OEM Part Number</key>
+   <key locale="en_US" id="Property{::}YF4_SpecRevision{::}yf4_Language" status="Approved">Language</key>
+   <key locale="en_US" id="Property{::}YF4_SpecRevision{::}yf4_Spec_Rev_Date" status="Approved">Specification Revision Date</key>
+   <key locale="en_US" id="Property{::}YF4_SpecRevision{::}yf4_additional_notes" status="Approved">Additional Notes</key>
+   <key locale="en_US" id="Property{::}YF4_SpecRevision{::}yf4_publisher" status="Approved">Publisher</key>
+   <key locale="en_US" id="Property{::}YF4_SpecRevision{::}yf4_scope" status="Approved">Scope</key>
+   <key locale="en_US" id="Property{::}YF4_SpecRevision{::}yf4_spec_ref_number" status="Approved">Specification Reference Number</key>
+   <key locale="en_US" id="Property{::}YF4_SpecRevision{::}yf4_spec_rev_level" status="Approved">Specification Revision Level</key>
+   <key locale="en_US" id="Property{::}YF4_SpecRevision{::}yf4_spec_status" status="Approved">Specification Status</key>
+   <key locale="en_US" id="Property{::}YF4_Spec{::}object_name" status="Approved">Specification Name</key>
+   <key locale="en_US" id="Property{::}YF4_TDM_ReqtRevision{::}yf4_TDM_description"
+       status="Approved">TDM Description</key>
+   <key locale="en_US" id="Property{::}YF4_TDM_ReqtRevision{::}yf4_customer" status="Approved">Customer</key>
+   <key locale="en_US" id="Property{::}YF4_TDM_ReqtRevision{::}yf4_model_year" status="Approved">Model Year/SOP</key>
+   <key locale="en_US" id="Property{::}YF4_TDM_ReqtRevision{::}yf4_product" status="Approved">Product</key>
+   <key locale="en_US" id="Property{::}YF4_TDM_ReqtRevision{::}yf4_project_number"
+       status="Approved">Program Number</key>
+   <key locale="en_US" id="Property{::}YF4_TDM_ReqtRevision{::}yf4_vehicle" status="Approved">Vehicle</key>
+   <key locale="en_US" id="Property{::}YF4_TestCorrlatnRevision{::}yf4_Rank" status="Approved">Rank</key>
+   <key locale="en_US" id="Property{::}YF4_TestCorrlatnRevision{::}yf4_comments" status="Approved">Comments</key>
+   <key locale="en_US" id="Property{::}YF4_TestCorrlatnRevision{::}yf4_correlation_type"
+       status="Approved">Criteria Type</key>
+   <key locale="en_US" id="Property{::}YF4_TestCorrlatnRevision{::}yf4_input_type"
+       status="Approved">Input Type</key>
+   <key locale="en_US" id="Property{::}YF4_TestCorrlatnRevision{::}yf4_object_desc_german"
+       status="Approved">Description (German)</key>
+   <key locale="en_US" id="Property{::}YF4_TestCorrlatnRevision{::}yf4_partial" status="Approved">Partial</key>
+   <key locale="en_US" id="Property{::}YF4_TestCorrlatnRevision{::}yf4_rating" status="Approved">Rating</key>
+   <key locale="en_US" id="Property{::}YF4_TestCorrlatnRevision{::}yf4_report" status="Approved">Report</key>
+   <key locale="en_US" id="Property{::}YF4_TestCorrlatnRevision{::}yf4_result" status="Approved">Result</key>
+   <key locale="en_US" id="Property{::}YF4_TestCorrlatnRevision{::}yf4_test_class"
+       status="Approved">Test Class</key>
+   <key locale="en_US" id="Property{::}YF4_TestCorrlatnRevision{::}yf4_test_subclass"
+       status="Approved">Test Subclass</key>
+   <key locale="en_US" id="Property{::}YF4_TestCorrlatnRevision{::}yf4_unit" status="Approved">Unit</key>
+   <key locale="en_US" id="Property{::}YF4_TestCorrlatnRevision{::}yf4_value" status="Approved">Criterion/Value</key>
+   <key locale="en_US" id="Property{::}YF4_TestCorrlatn{::}yf4_correlation_type" status="Approved">Z_NOTUSED</key>
+   <key locale="en_US" id="Property{::}YF4_TestMethodRevision{::}creation_date" status="Approved">Creation Date</key>
+   <key locale="en_US" id="Property{::}YF4_TestMethodRevision{::}yf4_Duration" status="Approved">Duration (days)</key>
+   <key locale="en_US" id="Property{::}YF4_TestMethodRevision{::}yf4_Lead_Time" status="Approved">Lead Time (Days)</key>
+   <key locale="en_US" id="Property{::}YF4_TestMethodRevision{::}yf4_Publisher" status="Approved">Publisher</key>
+   <key locale="en_US" id="Property{::}YF4_TestMethodRevision{::}yf4_rev_date" status="Approved">Rev./Date</key>
+   <key locale="en_US" id="Property{::}YF4_TestMethodRevision{::}yf4_test_class" status="Approved">Test Class</key>
+   <key locale="en_US" id="Property{::}YF4_TestMethodRevision{::}yf4_test_method_date"
+       status="Approved">Z_NOTUSED</key>
+   <key locale="en_US" id="Property{::}YF4_TestMethodRevision{::}yf4_test_subclass"
+       status="Approved">Test Subclass</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}owning_user" status="Approved">Requested By</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_build_date_2"
+       status="Approved">BuildDdate</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_build_date_3"
+       status="Approved">Build Date</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_build_date_4"
+       status="Approved">build date</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_build_date_5"
+       status="Approved">Build Date</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_build_date" status="Approved">Build Date</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_cost_center"
+       status="Approved">Cost Center</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_customer" status="Approved">Customer</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_deviations_2"
+       status="Approved">Deviations</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_deviations_3"
+       status="Approved">Deviations</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_deviations_4"
+       status="Approved">Deviations</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_deviations_5"
+       status="Approved">Deviations</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_deviations" status="Approved">Deviations</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_email_address"
+       status="Approved">Email Address</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_facility" status="Approved">Facility</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_model_year" status="Approved">Model Year</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_objective" status="Approved">Objective</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_part_number_2"
+       status="Approved">Part Number</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_part_number_3"
+       status="Approved">Part Number</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_part_number_4"
+       status="Approved">Part Number</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_part_number_5"
+       status="Approved">Part Number</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_part_number"
+       status="Approved">Part Number</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_part_rev_2" status="Approved">Part Rev</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_part_rev_3" status="Approved">Part Rev</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_part_rev_4" status="Approved">Part Rev</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_part_rev_5" status="Approved">Part Rev</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_part_rev" status="Approved">Part Rev</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_phase_type" status="Approved">Phase Type</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_phone_number"
+       status="Approved">Phone Number</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_product" status="Approved">Product</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_program_number"
+       status="Approved">Program Number</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_program_specific_setup"
+       status="Approved">Program Specific Setup</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_project_number"
+       status="Approved">Project Number</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_quantity_2" status="Approved">Quantity</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_quantity_3" status="Approved">Quantity</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_quantity_4" status="Approved">Quantity</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_quantity_5" status="Approved">Quantity</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_quantity" status="Approved">Quantity</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_requested_complete_date"
+       status="Approved">Requested Completion Date</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_sample_description_2"
+       status="Approved">Sample Description</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_sample_description_3"
+       status="Approved">Sample Description</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_sample_description_4"
+       status="Approved">Sample Description</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_sample_description_5"
+       status="Approved">Sample Description</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_sample_description"
+       status="Approved">Sample Description</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_sample_disposal"
+       status="Approved">Sample Disposal</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_sample_level_2"
+       status="Approved">Sample Level</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_sample_level_3"
+       status="Approved">Sample Level</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_sample_level_4"
+       status="Approved">Sample Level</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_sample_level_5"
+       status="Approved">Sample Level</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_sample_level"
+       status="Approved">Sample Level</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_spec_ref_num_2"
+       status="Approved">Spec Reference No</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_spec_ref_num_3"
+       status="Approved">Spec Reference No</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_spec_ref_num_4"
+       status="Approved">Spec Reference No</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_spec_ref_num_5"
+       status="Approved">Spec Reference No</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_spec_ref_num"
+       status="Approved">Spec Reference No</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_spec_rev_date_2"
+       status="Approved">Spec rev date</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_spec_rev_date_3"
+       status="Approved">Spec rev date</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_spec_rev_date_4"
+       status="Approved">Spec rev date</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_spec_rev_date_5"
+       status="Approved">Spec rev date</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_spec_rev_date"
+       status="Approved">Spec rev date</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_status" status="Approved">TRF Status</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_test_engineer"
+       status="Approved">Test Engineer</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_test_name_2"
+       status="Approved">Test Name</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_test_name_3"
+       status="Approved">Test Name</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_test_name_4"
+       status="Approved">Test Name</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_test_name_5"
+       status="Approved">Test Name</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_test_name" status="Approved">Test Name</key>
+   <key locale="en_US" id="Property{::}YF4_TestReqObjRevision{::}yf4_vehicle" status="Approved">Vehicle</key>
+   <key locale="en_US" id="Property{::}YF4_TestResultRevision{::}yf4_Retest" status="Approved">Retest</key>
+   <key locale="en_US" id="Property{::}YF4_TestResultRevision{::}yf4_additional_test_cost"
+       status="Approved">Additional Test Cost</key>
+   <key locale="en_US" id="Property{::}YF4_TestResultRevision{::}yf4_baromertic_pressure"
+       status="Approved">Baromertic Pressure</key>
+   <key locale="en_US" id="Property{::}YF4_TestResultRevision{::}yf4_barometric_pressure"
+       status="Approved">Barometric Pressure</key>
+   <key locale="en_US" id="Property{::}YF4_TestResultRevision{::}yf4_comments" status="Approved">Judgment Comments</key>
+   <key locale="en_US" id="Property{::}YF4_TestResultRevision{::}yf4_end_time" status="Approved">End Time</key>
+   <key locale="en_US" id="Property{::}YF4_TestResultRevision{::}yf4_humidity" status="Approved">Humidity</key>
+   <key locale="en_US" id="Property{::}YF4_TestResultRevision{::}yf4_rating" status="Approved">Rating</key>
+   <key locale="en_US" id="Property{::}YF4_TestResultRevision{::}yf4_recommendation"
+       status="Approved">Error Type</key>
+   <key locale="en_US" id="Property{::}YF4_TestResultRevision{::}yf4_result_numeric"
+       status="Approved">Result</key>
+   <key locale="en_US" id="Property{::}YF4_TestResultRevision{::}yf4_result" status="Approved">Judgment</key>
+   <key locale="en_US" id="Property{::}YF4_TestResultRevision{::}yf4_start_time" status="Approved">Start Time</key>
+   <key locale="en_US" id="Property{::}YF4_TestResultRevision{::}yf4_temperature"
+       status="Approved">Temperature</key>
+   <key locale="en_US" id="Property{::}YF4_TestResultRevision{::}yf4_test_id" status="Approved">Test ID</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_Phase_Type" status="Approved">Phase Type</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_Test_Order" status="Approved">Test Order</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_customer" status="Approved">Customer</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_duration_compound"
+       status="Approved">Duration</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_dvp_number" status="Approved">DVP Number</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_evaluation_criteria"
+       status="Approved">Evaluation Criteria</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_lead_time_compound"
+       status="Approved">Lead Time</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_model_year" status="Approved">Model Year</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_object_name" status="Approved">Object Name</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_paragraph_id" status="Approved">Paragraph ID</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_planned_cost_Eur" status="Approved">Planned Cost for Europe</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_planned_cost_US" status="Approved">Planned Cost for US</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_product" status="Approved">Product</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_project_number" status="Approved">Project Number</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_publisher" status="Approved">Publisher</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_sample_id" status="Approved">Sample ID</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_sample_type_name" status="Approved">Sample Type Name</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_spec_ref_number" status="Approved">Specification Reference Number</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_spec_rev_level" status="Approved">Specification Revision Level</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_spec_test_id" status="Approved">Specification Test ID</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_specification_name"
+       status="Approved">Specification Name</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_test_class" status="Approved">Test Class</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_test_description" status="Approved">Test Description</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_test_sublcass" status="Approved">Test Subclass</key>
+   <key locale="en_US" id="Property{::}YF4_TestRevision{::}yf4_vehicle" status="Approved">Vehicle</key>
+   <key locale="en_US" id="Property{::}YF4_WorkOrderRevision{::}item_id" status="Approved">Work Order Number</key>
+   <key locale="en_US" id="Property{::}YF4_WorkOrderRevision{::}yf4_AdditionalContacts"
+       status="Approved">Additional Contacts</key>
+   <key locale="en_US" id="Property{::}YF4_WorkOrderRevision{::}yf4_Description" status="Approved">Description</key>
+   <key locale="en_US" id="Property{::}YF4_WorkOrderRevision{::}yf4_ProjectName" status="Approved">Project Name</key>
+   <key locale="en_US" id="Property{::}YF4_WorkOrderRevision{::}yf4_ProjectNumber"
+       status="Approved">Project Number</key>
+   <key locale="en_US" id="Property{::}YF4_WorkOrderRevision{::}yf4_Quantities" status="Approved">Quantities</key>
+   <key locale="en_US" id="Property{::}YF4_WorkOrderRevision{::}yf4_RequestorsPhone"
+       status="Approved">Requestors Phone Number</key>
+   <key locale="en_US" id="Property{::}YF4_WorkOrderRevision{::}yf4_WorkOrderDueDate"
+       status="Approved">Work Order Due Date</key>
+   <key locale="en_US" id="ReleaseStatus{::}YF4_Approved" status="Approved">Approved</key>
+   <key locale="en_US" id="ReleaseStatus{::}YF4_Assigned" status="Approved">Assigned</key>
+   <key locale="en_US" id="ReleaseStatus{::}YF4_Cancelled" status="Approved">Cancelled</key>
+   <key locale="en_US" id="ReleaseStatus{::}YF4_Closed" status="Approved">Closed</key>
+   <key locale="en_US" id="ReleaseStatus{::}YF4_Completed" status="Approved">Completed</key>
+   <key locale="en_US" id="ReleaseStatus{::}YF4_In_Process" status="Approved">In Process</key>
+   <key locale="en_US" id="ReleaseStatus{::}YF4_New" status="Approved">New</key>
+   <key locale="en_US" id="ReleaseStatus{::}YF4_Parts Submitted" status="Approved">Parts Submitted</key>
+   <key locale="en_US" id="ReleaseStatus{::}YF4_Released" status="Approved">Released</key>
+   <key locale="en_US" id="ReleaseStatus{::}YF4_Results_Approved" status="Approved">Results Approved</key>
+   <key locale="en_US" id="ReleaseStatus{::}YF4_Reviewed" status="Approved">Reviewed</key>
+   <key locale="en_US" id="ReleaseStatus{::}YF4_Scheduled" status="Approved">Scheduled</key>
+   <key locale="en_US" id="ReleaseStatus{::}YF4_Submitted_for_Review" status="Approved">Submitted for Review</key>
+   <key locale="en_US" id="ReleaseStatus{::}YF4_Timing_requested" status="Approved">Timing requested</key>
+</Add>
+</TcBusinessDataLocalization>

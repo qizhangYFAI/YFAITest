@@ -1,0 +1,2726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="YF4_TestMethodRevision"
+       propertyName="yf4_Duration" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="YF4_TestMethodRevision"
+       propertyName="yf4_Lead_Time" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="YF4_EquipmentRevision"
+       propertyName="yf4_Category" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="YF4_TestMethodRevision"
+       propertyName="yf4_Duration" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="YF4_TestMethodRevision"
+       propertyName="yf4_Lead_Time" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="YF4_TestMethodRevisionCreI"
+       propertyName="yf4_Duration" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="YF4_TestMethodRevisionCreI"
+       propertyName="yf4_Lead_Time" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="YF4_EquipmentRevision"
+       propertyName="yf4_Category" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="YF4_TestMethodRevision"
+       propertyName="yf4_Duration" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="YF4_TestMethodRevision"
+       propertyName="yf4_Lead_Time" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="YF4_TestMethodRevisionCreI"
+       propertyName="yf4_Duration" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="YF4_TestMethodRevisionCreI"
+       propertyName="yf4_Lead_Time" value="Write"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="YF4_TestMethodRevision"
+       propertyName="yf4_Duration" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="YF4_TestMethodRevision"
+       propertyName="yf4_Lead_Time" value="true"/>
+   <TcLOV name="YF4_Accreditation" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Not Accredited" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DAKKS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A2LA" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_AssessmentMethod" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Customer Defined" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Expert Judgement" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CAE/FEA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Surrogate Data" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Carry-over Data" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Design Standards" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Layout or Cad Drawings" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mockup Test (State ED)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prototype Test (State DV)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Production Test (State PV)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dimensional Analysis" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mold Flow/Warp Analysis" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BEA/Calculations" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Design Review" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Material Selection" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Other" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_BuildEventType" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Build Event Type">
+     <TcLOVValue value="AME Parts" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DV - Customer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DV - Validation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ED - Customer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ED - Validation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Misc. Engineering Parts" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Packaging Parts" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PV - Customer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PV - Validation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Quality Parts" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Supplier Support" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_COEProductBusinessUnit" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Product Business Unit (PBU)">
+     <TcLOVValue value="Battery Management" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Clusters - electronics" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Compass - electronics" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Door Panels" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Electronics (General)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Floor Consoles" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Garnish" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HFT - electronics" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HMLK - electronics" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Instrument Panels" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Overhead Consolers" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Overhead Systems" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Soft Trim Cell" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Visor" description="Visor" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Calibration_Reqd" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Yes" description="" conditionName="isTrue"/>
+     <TcLOVValue value="No" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Calibration_Status" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="OK" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NOK" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Category" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="Accelerometer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Air Flow" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Angle" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Color" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Data Acquisition" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dimensional" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Drive in Chamber" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Electronics" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Flammability" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Flow" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fogging" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Force Gage" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gloss" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hardness" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Impact" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lighting" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Load Cell" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Miscellaneous" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Oven" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Power Supply" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pressure" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Reach in Chamber" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Scratch" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sound" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Speed" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Temperature" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tensile" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Time" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Torque" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_ComfortSubClass" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Static Load Deflection" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_CommRatingReason" lovType="ListOfValuesString" usage="Suggestive"
+       description="Communications Rating Reason">
+     <TcLOVValue value="2 - Less Than Full Performance: No contact start of project"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="2 - Less Than Full Performance: No contact w/ project finished"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="2 - Less Than Full Performance: Poor communication during project"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="2 - Less Than Full Performance: See Comments..." description=""
+         conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_CustomerBusinessUnit" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Customer Business Unit (CBBU)">
+     <TcLOVValue value="Advanced" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Audi" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BMW" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CPP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DCX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ford" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Honda" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Internal JCI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Jaguar" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kia/Hyundai" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mazda" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mercedes" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Misc." description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mitsubushi" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Nissan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PSA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Renault" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Rover" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Subaru" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Toyota" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Volvo" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_DVPStatus" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="Active" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Archived" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Department" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="APDS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gage cabinet" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Product Engineering" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Vibration" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Materials" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Safety" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Functional" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Electronics" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Environmental" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Department_Test" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Airbag" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Functional" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Material" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_DimensionalSubClass" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Measurement (other)" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_DynamicSubClass" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Airbag Deployment" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_EMCSubClass" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="ESD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Emissions" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Voltage Compatiblity (VC)" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_EnvironmentalSubClass" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Cold Temperature" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Corrosion Resistance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dust Resistance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hot Temperature" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Humidity" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hydrolytic stability" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Thermal Shock" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Variable Conditions" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Weatherometer (UV/Sun Exposure)" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_EquipmentDisposition" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="In Use" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Missing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="OUT for Repair" description="" conditionName="isTrue"/>
+     <TcLOVValue value="OUT of Service" description="" conditionName="isTrue"/>
+     <TcLOVValue value="OUT for calibration" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Scrapped" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_ErrorType" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="Design" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Manufacturing/Quality" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Requirement (knowledge of)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Supplier" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Test Execution" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Unknown" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Eval_Criteria_Result" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Pass" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pass with deviation G" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pass with deviation Y" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pending" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Information" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Not Pass" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Attention internal" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Attention external" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Notification" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Facilities" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="APD Holland" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Brazil" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bridgewater II" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Building Efficiency" description="" conditionName="isTrue"/>
+     <TcLOVValue value="COC Holland" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CoE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cottondale" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Frenchtown" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Harrison Township" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JCIM Lansing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kendallville" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kentwood" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lakewood" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Louisville" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Maplewood" description="" conditionName="isTrue"/>
+     <TcLOVValue value="McCalla" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Outside testing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Plymouth" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Power Solutions" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Romulus" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Southview" description="" conditionName="isTrue"/>
+     <TcLOVValue value="West Point" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_FixtureMaterial" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Aluminum" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Steel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wood" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Composite" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_FixtureStatus" lovType="ListOfValuesString" usage="Exhaustive"
+       description="LOV for Fixture statuses.">
+     <TcLOVValue value="Available" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Unavailable" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_FreeplayMomentsSubClass" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Rigidity" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_FunctionalSubClass" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Efforts" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Electric" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Installation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Noise" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Operational Check" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Speed/Rate" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Travel" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Gap_Status" lovType="ListOfValuesString" usage="Exhaustive" description="Gap Status">
+     <TcLOVValue value="NG - No Gap (Green)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="G - Gap (Red)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IP - In Process (Yellow)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NE - Not Evaluated (Blue)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EE - Elsewhere Evaluated (Gray)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C - Customer (Blue)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="N/A - Not Applicable" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_InputType" lovType="ListOfValuesString" usage="Exhaustive" description="Criteria Input type for values">
+     <TcLOVValue value="Numeric" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Text" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Language" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="English" description="" conditionName="isTrue"/>
+     <TcLOVValue value="German" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Chinese" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Italian" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_ListOfUsers" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="Suigussaar, Arnold" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Rau, Ken" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Howard, David" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kollen, Carlton" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gurumurthy, Priya" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Domine, Mike" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hill, Robert" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Frost, Barry" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Brandt, Dieter" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wons, Bastian" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hoepink, Olaf" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wallscheid, Georg" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Xin, Cheng" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Xiong, Shao" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Nan, Chen" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Location" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="Holland Product Validation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Holland APDS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Neuss Product Validation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Trencin Product Validation" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_MaterialPropertiesSubClass" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Abrasion" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Adhesion" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Chemical Resistance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cleanability" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Compatability" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Emission VOC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Finish (Paint)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Flammability" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fogging" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gloss" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Indentation/Recovery" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Odor" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Properties" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Scratch Resistance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tensile/Compression" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_MechanicalDurabilitySubClass" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Fatigue - Repeated Load" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Key Life" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Life Cycle" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Milestones" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="Critical DV Start" description="DV Test Start general" conditionName="isTrue"/>
+     <TcLOVValue value="PV Release" description="DV Test End (PV tool kick off)" conditionName="isTrue"/>
+     <TcLOVValue value="Critical PV Start" description="PV Test Start general" conditionName="isTrue"/>
+     <TcLOVValue value="PPAP" description="Part approval from customer" conditionName="isTrue"/>
+     <TcLOVValue value="Product Readiness" description="PV Test End" conditionName="isTrue"/>
+     <TcLOVValue value="SOP" description="Start of production" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_ModelUsage" lovType="ListOfValuesString" usage="Exhaustive" description="What Is Model to be used for">
+     <TcLOVValue value="Customer" description="Customer" conditionName="isTrue"/>
+     <TcLOVValue value="Internal" description="Internal" conditionName="isTrue"/>
+     <TcLOVValue value="Order" description="Order" conditionName="isTrue"/>
+     <TcLOVValue value="Sales/Show" description="Sales/Show" conditionName="isTrue"/>
+     <TcLOVValue value="Validation" description="Validation" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_MoldStorageLocations" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Mold Storage Locations">
+     <TcLOVValue value="Advanced Composites" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Customer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Disposed" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_ProdDevWorkOrderType" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Product Development Work Order Type">
+     <TcLOVValue value="Advanced" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Launch" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Production" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="External Customer" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_ProductDevelopmentPBU" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Product Development PBU">
+     <TcLOVValue value="BLD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CNC / 3D printing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CSW" description="" conditionName="isTrue"/>
+     <TcLOVValue value="OHP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PD EE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Trim / Deco" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Other" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Advanced Composites" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_ProductDevelopmentWorkType" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Product Development Work Type">
+     <TcLOVValue value="Advanced" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Support" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_ProductLOV" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="Armrest" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Deco Trim" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Door Panel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Electronics Module" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Exterior Trim" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Floor Console" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Instrument Panel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Material" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Overhead Console" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Overhead System" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Package Tray" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_PublisherList" lovType="ListOfValuesString" usage="Exhaustive"
+       description="List of Publishers">
+     <TcLOVValue value="AATCC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ASTM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AUDI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BMW" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C-NCAP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CHRYSLER" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DAIMLER" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DELPHI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DIN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ECE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EEC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EURONCAP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FEA / CAE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FIAT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FMVSS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FORD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HONDA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HYUNDAI/KIA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IEC INTERNAT. ELECTRONICAL COMMISSION" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ISO" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JAGUAR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JAPANNCAP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JCI BURSCHEID" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JCI CONFLANS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JCI CREUTZWALD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JCI GREFRATH" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JCI RUMANIEN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JCI WUPPERTAL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JIS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KMVSS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LAND ROVER" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MAZDA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MITSUBISHI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NAVISTAR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NHTSA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NISSAN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PORSCHE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RENAULT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SAE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SKODA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SUBARU" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SUZUKI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TOYOTA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VDA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VOLVO" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YFAI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YFAI HOLLAND MI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YFAI LUENEBURG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YFAI NAMESTOVO" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YFAI NEUSS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YFAI NEUSTADT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YFAI PAPA/ZATEC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YFAI RASTATT" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_QualityRatingReason" lovType="ListOfValuesString" usage="Suggestive"
+       description="Quality Rating Reason">
+     <TcLOVValue value="2 - Less Than Full Performance: Finish less than expected"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="2 - Less Than Full Performance: Functionality less than expected"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="2 - Less Than Full Performance: Finish higher than necessary"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="2 - Less Than Full Performance: See Comments..." description=""
+         conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_RatingOverall" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Overall Satisfaction">
+     <TcLOVValue value="5 - Distinguished" description="" conditionName="isTrue"/>
+     <TcLOVValue value="4 - Excellent" description="" conditionName="isTrue"/>
+     <TcLOVValue value="3 - Full Performance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2 - Less Than Full Performance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="1 - Unacceptable" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_RatingReasonOverall" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Overall rating, rank 2">
+     <TcLOVValue value="2 - Less Than Full Performance: Quality" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2 - Less Than Full Performance: Timing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2 - Less Than Full Performance: Communication" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="2 - Less Than Full Performance: See Comments..." description=""
+         conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Ratings" lovType="ListOfValuesString" usage="Exhaustive" description="Quality">
+     <TcLOVValue value="5 - Distinguished" description="" conditionName="isTrue"/>
+     <TcLOVValue value="4 - Excellent" description="" conditionName="isTrue"/>
+     <TcLOVValue value="3 - Full Performance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2 - Less Than Full Performance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="1 - Unacceptable" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_RatingsC" lovType="ListOfValuesString" usage="Exhaustive" description="Communication Ratings">
+     <TcLOVValue value="5 - Distinguished" description="" conditionName="isTrue"/>
+     <TcLOVValue value="4 - Excellent" description="" conditionName="isTrue"/>
+     <TcLOVValue value="3 - Full Performance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2 - Less Than Full Performance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="1 - Unacceptable" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_RatingsT" lovType="ListOfValuesString" usage="Exhaustive" description="Timing ratings">
+     <TcLOVValue value="5 - Distinguished" description="" conditionName="isTrue"/>
+     <TcLOVValue value="4 - Excellent" description="" conditionName="isTrue"/>
+     <TcLOVValue value="3 - Full Performance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2 - Less Than Full Performance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="1 - Unacceptable" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_RequirementStatus" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Requirement Status for Paragraph">
+     <TcLOVValue value="Active" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Inactive" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_ReviewSubClass" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Appearance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Safety" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Sample Disposal Methods" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Return to Requestor" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Scrap" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Retain per Lab Guidelines" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_SampleLevel" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="A: Prototype (Handmade)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B: Prototype (Tooled)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C: Production Tool (not process)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D: Production Tool and Process" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Others" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VAVE proposal sample" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_SampleStatus" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Approved" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Unapproved" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_SampleType" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="Bracket" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BoilerPlate" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Scope" lovType="ListOfValuesString" usage="Exhaustive" description="Values listing the scope for Specification.">
+     <TcLOVValue value="Armrest" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Door Panel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Electronics Module" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Floor Console" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Instrument Panel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Interior Trim" description="" conditionName="isTrue"/>
+     <TcLOVValue value="OHC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="OHS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Package Tray" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_SpecificationLifecycle" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Specification Lifecycle">
+     <TcLOVValue value="Active" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Inactive" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_SpecificationType" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Regulation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YFAI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="OEM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Other" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_StaticLoadSubClass" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Airbag Deploy (Static)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Component Loading" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Durability Retaining Force" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Holding Force" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Latch Strength" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lateral Strength" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Vertical Strength" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Status" lovType="ListOfValuesString" usage="Exhaustive" description="Paragraph Status">
+     <TcLOVValue value="Draft" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Approved" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_SystemOfMeasure" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Metric" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Standard" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_TRF Status" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="New" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Submitted" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Approved" description="" conditionName="isTrue"/>
+     <TcLOVValue value="In Process" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Completed" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Rejected" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_TestClass" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="Comfort" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dimensional" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dynamic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Electromagnetic Compatibility (EMC)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Environmental" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Freeplay, Moments" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Functional" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Material Properties" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mechanical Durability" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Review" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Static Load" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Vibration" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_TestCorrelationTypes" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Test Correlation Types - Criteria/Evaluation">
+     <TcLOVValue value="Test Criteria" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Evaluation Criteria" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Part Criteria" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_TestMethodInputType" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Text" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Numeric" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Select" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HTML(Upload Data)" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_TestUnit" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="kg" description="" conditionName="isTrue"/>
+     <TcLOVValue value="lbs" description="" conditionName="isTrue"/>
+     <TcLOVValue value="mm" description="" conditionName="isTrue"/>
+     <TcLOVValue value="grade" description="" conditionName="isTrue"/>
+     <TcLOVValue value="inch" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Test_Result" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="Not Tested" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pass" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pass with deviation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Evaluation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pending" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Not Pass" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cancelled" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Meets Requirement(s)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Does Not Meet Requirement(s)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="OK" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NOK" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Att Int" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Att Ext" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Notification" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Satisfied" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Not Satisfied" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_TimingRatingReason" lovType="ListOfValuesString" usage="Suggestive"
+       description="Timing Rating Reason">
+     <TcLOVValue value="2 - Less Than Full Performance: Did not meet initial timing"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="2 - Less Than Full Performance: Did not meet revised timing"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="2 - Less Than Full Performance: See Comments..." description=""
+         conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_Type" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="BIW" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sheet metal" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Durability cycle" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Simulated sheet metal" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BIW simulation or surrogate" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Quality" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Vibration" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_VehicleLOV" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="_DP Template" description="" conditionName="isTrue"/>
+     <TcLOVValue value="010B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="041B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="044L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="050X" description="" conditionName="isTrue"/>
+     <TcLOVValue value="051A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="061A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="070N" description="" conditionName="isTrue"/>
+     <TcLOVValue value="096B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="1 Quotes" description="" conditionName="isTrue"/>
+     <TcLOVValue value="1 Single Tests" description="" conditionName="isTrue"/>
+     <TcLOVValue value="105B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="130A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="130L/345W" description="" conditionName="isTrue"/>
+     <TcLOVValue value="131A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="132" description="" conditionName="isTrue"/>
+     <TcLOVValue value="139 new Panda" description="" conditionName="isTrue"/>
+     <TcLOVValue value="150A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="169" description="" conditionName="isTrue"/>
+     <TcLOVValue value="169/312/B420/L846" description="" conditionName="isTrue"/>
+     <TcLOVValue value="170A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="170L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="180L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="1999 PT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2001 PT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2002 PT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2004 PT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2006 PT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="200L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2014 YFJC MHP X-Z Seating" description="" conditionName="isTrue"/>
+     <TcLOVValue value="221A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="222A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="239L Brazil" description="" conditionName="isTrue"/>
+     <TcLOVValue value="240A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="246A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="261" description="" conditionName="isTrue"/>
+     <TcLOVValue value="278W Front Seat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="281A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2CE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2CN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2CT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2DM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2GA 2013 Accord" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2GA JCIM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2HD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2mm HV-Spindel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2PQ" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2SV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2TW" description="" conditionName="isTrue"/>
+     <TcLOVValue value="2XW" description="" conditionName="isTrue"/>
+     <TcLOVValue value="3" description="" conditionName="isTrue"/>
+     <TcLOVValue value="310B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="311A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="312" description="" conditionName="isTrue"/>
+     <TcLOVValue value="312 Abarth" description="" conditionName="isTrue"/>
+     <TcLOVValue value="312/B420/L846" description="" conditionName="isTrue"/>
+     <TcLOVValue value="313M" description="" conditionName="isTrue"/>
+     <TcLOVValue value="323A RSE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="327 FL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="340A / 519W" description="" conditionName="isTrue"/>
+     <TcLOVValue value="343 Muletti" description="" conditionName="isTrue"/>
+     <TcLOVValue value="35 Up" description="" conditionName="isTrue"/>
+     <TcLOVValue value="355A/530W" description="" conditionName="isTrue"/>
+     <TcLOVValue value="369A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="370A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="397L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="3D Teknit" description="" conditionName="isTrue"/>
+     <TcLOVValue value="3E45" description="" conditionName="isTrue"/>
+     <TcLOVValue value="3X45" description="" conditionName="isTrue"/>
+     <TcLOVValue value="411" description="" conditionName="isTrue"/>
+     <TcLOVValue value="416W" description="" conditionName="isTrue"/>
+     <TcLOVValue value="420A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="422A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="440A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="443A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="445L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="445L/410W" description="" conditionName="isTrue"/>
+     <TcLOVValue value="472W/001A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="480A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="481" description="" conditionName="isTrue"/>
+     <TcLOVValue value="490W" description="" conditionName="isTrue"/>
+     <TcLOVValue value="491W" description="" conditionName="isTrue"/>
+     <TcLOVValue value="4P00" description="" conditionName="isTrue"/>
+     <TcLOVValue value="4P45" description="" conditionName="isTrue"/>
+     <TcLOVValue value="5.7L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="500" description="" conditionName="isTrue"/>
+     <TcLOVValue value="509W" description="" conditionName="isTrue"/>
+     <TcLOVValue value="531" description="" conditionName="isTrue"/>
+     <TcLOVValue value="576W" description="" conditionName="isTrue"/>
+     <TcLOVValue value="580L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="6" description="" conditionName="isTrue"/>
+     <TcLOVValue value="626A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="642L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="653A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="6FM Transmission" description="" conditionName="isTrue"/>
+     <TcLOVValue value="716A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="719" description="" conditionName="isTrue"/>
+     <TcLOVValue value="742A Tacoma" description="" conditionName="isTrue"/>
+     <TcLOVValue value="745A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="760A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="770N" description="" conditionName="isTrue"/>
+     <TcLOVValue value="775A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="800L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="841A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="860A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="863A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="870A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="870A - 626W" description="" conditionName="isTrue"/>
+     <TcLOVValue value="881A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="925A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="935L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="964A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="981" description="" conditionName="isTrue"/>
+     <TcLOVValue value="982A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="989A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="991" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A 9" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A Architecture" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A PLUS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A0" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A006" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A05" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A06" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A10" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A108" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A130" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A1BL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A205 DP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A21" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A31" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A33" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3300" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A330X" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3310" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3311" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3360" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3370" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3400" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3400 JIT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3401" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3401 JIT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3408" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A340x" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3410 JIT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3450" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3450 JIT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3455" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3460" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3470" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3470 JIT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3470 Structure" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A3600" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A5/05" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A68" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A7" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A94" description="" conditionName="isTrue"/>
+     <TcLOVValue value="A94 China" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Absorption" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ACC 1 Acoustics" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ACC 2 BSR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ACC 3 Comfort" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ACC 4 Modal Testing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ACC 5 VibDur" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ACC 5 Vib-Dur" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ACC_1_Acoustics" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ACC_2_BSR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ACC_3_Comfort" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Accord" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Accord 2-DR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Accord 4-DR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ace" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ace Magic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Active Anti Subm." description="" conditionName="isTrue"/>
+     <TcLOVValue value="Active X HR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Actros" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Acura 2AX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AE 336" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AE252" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AE336" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AE350" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AE380" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Agile" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AI370 (RSSP)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Airbag fixture" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Airline" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Alfa 955" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Alpha" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Alpha BL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Alpha Coupe" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Alpha Plus Sedan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AMPV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Any" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AP11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AP11 Major" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AP11 MCE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AP11 MY12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AP12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AP13" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AP13 TT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AP21" description="" conditionName="isTrue"/>
+     <TcLOVValue value="APSLC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Armada" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AS21" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AS21 EU" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AS21 TT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ASSUREX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Aston Martin" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ASX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Attrappen" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AU316" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AU316 NAR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AU416" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AU724" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Audi" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Audi 736" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Autovision" description="" conditionName="isTrue"/>
+     <TcLOVValue value="AV II" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Avalon" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Azure" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B 7" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B 8" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B12D" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B12G" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B12L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B14" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B146" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B226 RS Striker l.p." description="" conditionName="isTrue"/>
+     <TcLOVValue value="B23" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B232" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B256 MY06 (VA)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B299" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B2XX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B2xx MY06 (BO)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B376" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B4 - A1XC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B4 - C1UG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B4 - C1UL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B4 - E2LB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B4 - Epsilon / K2XX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B4 - Epsilon / Y1XX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B4 Family" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B402" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B420" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B460" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B479" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B5 Facelift" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B5 Pko" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B515" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B517" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B517 ICA India" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B562" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B562E" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B6/C6" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B751" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B753" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B753 China" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B754" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B754 China" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B7L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B8" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B81 China" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B81C" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B9" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B90 Colombia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B90 Morocco" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B90 Romania" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B90 Russia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Basic High Latch" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Basic+Gen2 Latch" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BC Segment Front" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Below 10" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Benchmark" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Beta" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BF4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BJ2S" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Blackbox Homelink IV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BMPV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BMW" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BMW CCT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BMW L6 BKII F10/F01" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BMW L7 / PL2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BMW MCV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BMW PV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bora A 5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bora A 5 China" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BP 31" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BP12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BP12 EGYPT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BP31" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 166" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 169" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 199" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 203" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 204" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 204 Mopf" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 205" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 205 Beltline" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 205 DP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 205 IP DV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 205 IP PV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 205 OHS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 211" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 212" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 212 AMG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 213" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 213 AMG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 218 DAI CLOCK" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 222" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 240" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 242" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 246" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 246 Kecskemet" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 246 Mopf" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 246 Rastatt" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 247" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 251" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 451" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR 453/X07" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR A/C207" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR BSP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR BSP 2mm HV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR BSP_222" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR BSP_C217" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR BSP_R231" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR BSP_SSP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR C207" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR C216" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR C216 AMG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR C217" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR C218" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR C218 AMG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR C219" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR CL203" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR MBC Modulsitz" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR MFA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR MFA CCT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR R129" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR R129 / R170" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR R172" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR R230" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR R230 AMG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR R230 Mopf 2008" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR R231" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR S204" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR S211" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR SSP Restbudget" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR SSP_INA Replace" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR SSP_MFA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR SSP_Niet Edison" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR SSP_VS20" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR SSP_W176" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR SSP_W242" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR SSP_W246" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR SSP_X156" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR V/W213" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR W164" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR W166" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR W169" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR W169 FC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR W176" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR W211 / W220" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR W221" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR W221 AMG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR W242" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR W245 CST" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR W246" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR X164" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR X166" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR X204" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BR X218" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Breite Spur" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Brennprüfungen FY09" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Brennprüfungen FY10" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Brennprüfungen FY11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Brose IBK BMW DAG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BSP-Quertraverse_neu" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BU Skoda Support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Building Efficiency Component" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Burscheid Support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bus V363" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BY 624 GTR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C100" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C117" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C140" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C170 U380X" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C190" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C195" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C1UG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C1YB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C1YC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C205 DP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C214" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C24" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C25" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C26" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C30 PEV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C301" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C307" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C307 ICA2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C343" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C343HB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C344" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C344 EU" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C344 MCA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C344 NA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C346" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C346 EU" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C346 manual recliner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C346 NA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C394" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C489" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C490" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C520" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C520 ICA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C520 ICA / C344 MCA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C520E / C344E ICA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C53D" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C55" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C557" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C8/B9" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C926" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CA33" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Camaro 521/511" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Camaro NG Convertible" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Camaro NG Coupe" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CAMISMA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Camry" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Captain Chair" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cayman" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CC 2008" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CCL HmLk Eu" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CCT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CCT - Namestovo" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CCT FY09_05/10" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CD 390" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CD 539" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CD391" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CD3XX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CD4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CD539" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CD540" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CE 1/2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Celta" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cerato" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CF Recliner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CF11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Chamber Mapping" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Change Location" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CHB031" description="" conditionName="isTrue"/>
+     <TcLOVValue value="China Seat Model F" description="" conditionName="isTrue"/>
+     <TcLOVValue value="China Seat Model X" description="" conditionName="isTrue"/>
+     <TcLOVValue value="China Seat Model Y" description="" conditionName="isTrue"/>
+     <TcLOVValue value="China Support MFA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CHK041" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Chrysler KL Jeep R1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CID" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cite Lite" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Civic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CK-1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CLAB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Classic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Clock" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Clocks" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cluster" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CM5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CMA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CMF1 Renault/Nissan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CMF2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CMF-B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CMT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CN100" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CN100 MCE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CN101" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CN112" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CN113" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CN200" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Coconut Fiber" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Colorado" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Colorado 1.SR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Colorado Brosse" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Colorado Crashlock" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Colorado NF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Colorado PAG E2 GTS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Colorado PAG E2 PS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Colorado PAG NF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Colorado SBR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="COM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Comfort Thin" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Comfort Thin Seat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Compass" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Component" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Components" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Compression Form" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Conflans" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Connection techn." description="" conditionName="isTrue"/>
+     <TcLOVValue value="Conti-Box" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Core" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CPP Rear Seat Bench" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CR45" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Creutwald EN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Creutzwald DE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CRH" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cross Polo" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cross Tour" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Crosscarline" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cross-line Ho. Euro" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CRS Structure" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CRV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CRV 07" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CR-Z" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CS343" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CTG Track" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CX11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CX5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CXXX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D01" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D15" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D16" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D162" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D1SB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D22" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D-258" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D2JB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D2JCI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D2JO" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D2SB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D2SC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D2UB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D2Ux" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D2WO" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D2XX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D3" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D385" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D42A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D471" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D472" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D544" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D568" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D7" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DAG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DAG IP-Support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Daimler" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Daimler / R231" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Daimler / V222" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Daimler / W222" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Daimler / W242" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Daimler /176/242/246" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Daimler /176/246" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Daimler CCT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Daimler CCT DE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Daimler Lear" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Daimler V205" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Daimler V212" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Daimler W204 Mopf" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Daimler W205" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DB Update" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DC MFS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DE Structure" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Delta" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DELTA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Delta D06" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Derivat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Development" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DICV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Discont. Recliner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Diverses" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DJ" description="" conditionName="isTrue"/>
+     <TcLOVValue value="D-platform" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DS ST" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DYK" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E 83 Face Lift" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E10" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E16" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E17" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E18" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E25" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E26" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E2JO" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E2LB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E2SC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E2SC -Malibu" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E2XX VTA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E33" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E46" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E46 Gentex" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E46 Homelink SWB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E50" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E51" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E52" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E60 MÜ China Lang" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E60 MÜ Motorsport M5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E60 MÜ" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E60" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E65" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E7" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E70 06.94" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E83" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E83 Face Lift" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E83 OHS Reloc.Poland" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E84" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E90" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E92" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E99" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Easy Entry Study" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ECO Climat Seat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ecobond" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ED" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ED 391 Primera" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ED RS Latch" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EE Memory" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EFC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EHL II" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EHL1 to EHL2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Einzelversuche" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EK2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Elantra" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ELR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Emission" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EMT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EN114" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Engineering" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Engineering DE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Engineering EN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Engineering Support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ENICS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Entwicklung TV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EOS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EP11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Epsilon" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Epsilon/Saab" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Erprobungsmatrix DC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ethios" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EuroHomelink2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Expo_Seat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EZ5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F New Generation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F01 C Saule unten" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F07" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F07 Bank" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F07 Türverkleidung" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F10" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F10 Motorsport M5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F10/11 Lehne" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F15" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F15 / F16" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F150" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F16" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F18" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F21" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F22" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F25" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F30" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F312 Cabrio" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F312 Diesel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F32/33" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F34" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F35" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F45" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F46" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F48" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F49 IP CN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F50" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F52" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F56" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F80/82" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F85/86" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fabia NF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fagerdala Insourcing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Family Recliner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FARO fixture" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FBK1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FC-2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FE-1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FE-1/2R" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FE-2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FE-3/4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FEA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fiat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fiat 325/Low cost" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fiat CCT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fiat L0" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fiat L0 330 Jit" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fiat L0 330 Metal" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fiat Minibus Iveco" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fiat Slim Seat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fip Foam" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fit / Jazz" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Flat Sensor" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Flatlight OHS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Floor Latches" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fluence" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Foam" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ford" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FORD B232" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ford CCT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ford Flam. Doub/Trip" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ford Flamingo Single" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ford Tran Dual/Singl" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ford Transit Dual-CO" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ford, B515" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fortuner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fox" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Frenchtown II" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Front Seat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Frontier" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FSB-Laser Welding" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FuFa" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fusion" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FY 2010" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FY 2011" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FY 2012" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FY 2013" description="" conditionName="isTrue"/>
+     <TcLOVValue value="G11 / G12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="G11/12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="G25" description="" conditionName="isTrue"/>
+     <TcLOVValue value="G30" description="" conditionName="isTrue"/>
+     <TcLOVValue value="G31" description="" conditionName="isTrue"/>
+     <TcLOVValue value="G38" description="" conditionName="isTrue"/>
+     <TcLOVValue value="G463" description="" conditionName="isTrue"/>
+     <TcLOVValue value="G61" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GAC-Fiat C343 JIT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GAC-Fiat C343 Metal" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GAMMA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GAMMA 14MY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GAMMA SUV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gap" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GD1A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Geely GC-1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gemini" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gemini Seat Track" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gemini Tilt" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gemini VTA Motor" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gen 2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GEN 3 VTA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gen II" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GEN II 40kN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GEN II Latch" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GEN IV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gen1 China North" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gen1 China South" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gen1 Europe" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gen2 validation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gen2.2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Global Benchmarking" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Global Foam" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Global R &amp; R" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Global Seating" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GM / Opel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GM CCT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GM OPEL 2014" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GM, PM7" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GM4530" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMI 700 Replacement" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMMS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMT 191/192/193" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMT 345" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMT 355" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMT 560" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMT 561" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMT 610" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMT 900" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMT 943" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMT 966/967" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMT Backrest" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMX 211" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMX 226" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMX 322" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMX 350" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMX 350/353" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMX 351" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMX 352" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMX 386" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMX 511" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GMX 521" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gol" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gol NF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Golf" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Golf - TopSport" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Golf A5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Golf A7" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Golf GP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Golf Top Sport 2007" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Golf Variant VW 352" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GP30" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GP50" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GP50 HB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GP50 MCE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GP51" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GP52" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GP60" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Graphene Nanoplatelets" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Green Core Resin" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GSV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GSV 4NB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GTR RECARO" description="" conditionName="isTrue"/>
+     <TcLOVValue value="H534" description="" conditionName="isTrue"/>
+     <TcLOVValue value="H61B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="H61L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="H79 India" description="" conditionName="isTrue"/>
+     <TcLOVValue value="H79 Romania" description="" conditionName="isTrue"/>
+     <TcLOVValue value="H79 Russia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HA 3000 manual" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HA 3000 manual VW" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HA Gen.3 APP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HA Gen.3 CPP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HA Gen.3 VAVE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HA Gen.3.X CPP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HA Various" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HAB01" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hammerstein" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HB5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="H-Car" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HDC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Head Restraint" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Headliner Development" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Headrest" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Headrests" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Height Adjuster" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Height adjuster FY11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Height adjuster FY12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Heigth Adjuster" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HFT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="High Temp. Eco Cor" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HKMC ( Hyundai/KIA)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Homelink" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HomeLink" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HONDA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Honda 08" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Honda/AP/Toyota" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hot / Cold Molding" description="" conditionName="isTrue"/>
+     <TcLOVValue value="H-Point Dummy" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HR Rod Standardization" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HR Rods Kiwi Project" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HR SLEEVE STANDA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HR Various" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hyndai CCT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hyundai LM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HZG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="HZJ" description="" conditionName="isTrue"/>
+     <TcLOVValue value="I-4 Engine" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IBK" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IBK2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IKCO_P_206" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ILX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IMGL Simulation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Industrial Design" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Infinity GD1A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Innegra S" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Insignia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Integral Skin" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Interior CBU" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Interiors innovation Discovery" description="" conditionName="isTrue"/>
+     <TcLOVValue value="invalid 1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="invalid 2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="invalid 3" description="" conditionName="isTrue"/>
+     <TcLOVValue value="invalid 4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IP 21 MCE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IP 22" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IP21" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ip21 Beige Cloth Chanage" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IP21 MCE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IP21 MY09" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IP22 CN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IP22 EU" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IP22(CN)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IP22(UK)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IP2223-TT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IP23" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IP24" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IP2X MCE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IP2X TT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IPC 4400" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IS12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Iveco" description="" conditionName="isTrue"/>
+     <TcLOVValue value="IVECO" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J02C" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J03" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J300" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J32Q" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J32U" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J37N" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J42H" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J53R" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J56" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J56/60" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J61" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J68C HFT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J77" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J92 India" description="" conditionName="isTrue"/>
+     <TcLOVValue value="J92-X67 Morocco" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JapanNCAP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Jazz" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JBC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JC Mexico Support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JC22A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JC49" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JCI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JCI Car" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JCI Dummy" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JCI Family / CPP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JCI Tests" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Jeep" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Jetta A5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Jetta A5 - Top Sport" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Jetta A5-TopSp.Eseat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Jetta A5-TopSportVWM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JFa" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JK" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JLR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JLR Prod. Support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JLR VAVE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JP Tool Transfer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JR 77" description="" conditionName="isTrue"/>
+     <TcLOVValue value="JS41" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Junior Electronics" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Junior Metal" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Jupiter to Gemini" description="" conditionName="isTrue"/>
+     <TcLOVValue value="K1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="K11H" description="" conditionName="isTrue"/>
+     <TcLOVValue value="K12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="K2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="K211" description="" conditionName="isTrue"/>
+     <TcLOVValue value="K216" description="" conditionName="isTrue"/>
+     <TcLOVValue value="K2XL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="K413" description="" conditionName="isTrue"/>
+     <TcLOVValue value="K416" description="" conditionName="isTrue"/>
+     <TcLOVValue value="K6" description="" conditionName="isTrue"/>
+     <TcLOVValue value="K85" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KA/KK" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Karlsruhe" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Keiper" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kendallville" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KIA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KIA / Hyundai" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KIA CCT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KK" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KM FS ED" description="" conditionName="isTrue"/>
+     <TcLOVValue value="KMC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kopfstützen" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L &amp; W" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L11K" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L12F" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L12M" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L150" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L2000" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L30" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L319" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L319 MY08" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L319/L320 MY07" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L319/L320 MY09" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L319/L320 MY10" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L319/L320 MY11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L320" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L320 MY08" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L322" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L35" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L359" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L38" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L38 Argentina" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L38 Korea" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L38 Turkey" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L405" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L421" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L421 China" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L42A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L42F" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L42L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L42N" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L43" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L43 Europe" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L43 Korea" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L46" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L47" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L538" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L550" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L6 BKII F10/F01" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L65 Mexico" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L65 Turkey" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L7" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L850" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L90 Colombia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L90 Morocco" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L90 Romania" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L90 Russia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lambda" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Laminate Recliner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Laminated Textile" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lancia L846" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lancia Theses 841" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Latch" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lavida" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lavida Derivat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lavida MMD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LB 83X" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LB72X" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LBC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LC Basis W33" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LC22" description="" conditionName="isTrue"/>
+     <TcLOVValue value="L-CAR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LDV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lead TrialBuild EHL2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lead TrialBuildUSHL4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Leather testing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Length Adjuster" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lever 2000" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lever 3000" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lexus" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LFSA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LG-1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LG-4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LGIS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Li12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Light Weight" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Light Weight  Rear  Seat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lile-1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lincoln U388" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LMC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lock" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LOCK 3000" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LR359" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lueneburg" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LW" description="" conditionName="isTrue"/>
+     <TcLOVValue value="LX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="M11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="M13" description="" conditionName="isTrue"/>
+     <TcLOVValue value="M16" description="" conditionName="isTrue"/>
+     <TcLOVValue value="M2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="M2xx" description="" conditionName="isTrue"/>
+     <TcLOVValue value="M3M4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="M3-M4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Macan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Maintenance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Maserati M156 JIT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Massnahmen" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Material Development" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Material Test FY10" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Material Test FY11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Material Testing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Matrix" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MBC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MCV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MDG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MDX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mechatronics" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mechs" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Medium Size RR STD Frame" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Messvorr. H-Point" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Messvorrichtung" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Metal BU" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Metal Component" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Metal Parts" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MFD4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MFS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MHA F GEN. 2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MHA Gen 4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MHA GEN. 2.2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MHA GEN. 3" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MHA GEN. 4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MHA GEN.2.2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MHA GEN.3" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MHA GEN.3 China" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MHA GEN.4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MHS3G" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mini Cooper (R60)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Misc. Programs" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MK-49" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MK-74" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ML1500" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MM E11A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MM IQS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MM Prod Support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MM VA-VE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MM X11A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MM X11E" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MMS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Model A(VW 253)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MODEL F" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Model H" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MODEL S" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Model S   FL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MODEL S FaceLift" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MODEL Y" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Model Z" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Model-K" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Modul Sitz" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Modulsitz Gen1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Modulsitz Gen2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mokka" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MP551" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MPS - Striker" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MQB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MQB A0" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MQB China" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MQB China South" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MRA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MS 2006" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MUBEA_KST" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Multimirror" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Multimirror-Core" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MVS2 A0" description="" conditionName="isTrue"/>
+     <TcLOVValue value="N61B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="N61G" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Natural Fiber Localization" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Navistar" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NBU Prodn support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NCS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NCS TV (Sedan)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NCV2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NCV-2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NCV-3" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ND" description="" conditionName="isTrue"/>
+     <TcLOVValue value="New Beetle" description="" conditionName="isTrue"/>
+     <TcLOVValue value="New Bora" description="" conditionName="isTrue"/>
+     <TcLOVValue value="New Lavida" description="" conditionName="isTrue"/>
+     <TcLOVValue value="New Model" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NGS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NGSCAR  NB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NGSCAR HB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NMC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NMC1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="NMS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Non Nissan Euro work" description="" conditionName="isTrue"/>
+     <TcLOVValue value="O1SL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="OCTAVIA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Odyssey" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Odyssey TK8" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Omega" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ONIX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Opel 3470 (Zaphira)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Opel Adam" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Opel CCT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Opel Epsilon" description="" conditionName="isTrue"/>
+     <TcLOVValue value="OPTIMA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Organoblech" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Other" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Others" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Outlander" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P1007" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P1007_P1X Facelift" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P1009" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P11/12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P12C" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P131" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P14" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P15" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P150" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P1X" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P1X Loadnet" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P2004" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P2006" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P2006/P24" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P2006/P28" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P2007" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P2007 Step bolts/P28" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P201" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P23" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P24" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P28" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P311" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P312A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P312H" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P313" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P314A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P314B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P32E" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P32L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P32R" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P32S" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P375" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P3-90A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P415" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P41B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P42J" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P42J/K" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P42K" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P42M" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P473" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P552" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P558" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P61A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P61B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P918" description="" conditionName="isTrue"/>
+     <TcLOVValue value="P970" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PAG 981" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PAG 991" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PAG 9X1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PAG 9X7" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Panamera G1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Passat B6" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Passat B8" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Passat CC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Passat Conf. SA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Passat R36" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PDC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Perfection Transfer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Peugeot EN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PF50" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Phase 0" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PHEV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pilot" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pilot (TG7)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PL2 E81 E82" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PL2 E8X 9X" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PL6" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Plant moves" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Plant support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Planung ext" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Plastics" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PM7" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PMMK" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PO416 (Macan)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PO526 (Cayenne)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Polo" description="" conditionName="isTrue"/>
+     <TcLOVValue value="POLO 241 FL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Polo Cross" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Polo GP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Polo GTI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Polo Rear Split" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Polybond Adhesive Optimization" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Porsche" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Porsche Panamera" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Power applications" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PQ 25" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PQ 35" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PQ 46 - Passat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PQ 465" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Priora" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prod. support 06FY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prod. support 07FY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prod. support 08FY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prod. support 09FY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prod. support 10FY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prod. support 11FY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prod. support 12FY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prod. support 13FY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prod. support 14FY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prod. support 15FY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Prodn support - Esp" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Production Support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Proficiency Testing" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Project Hyundai" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Project Quotes" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Proposal" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PS B-car" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PS C-car" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PS V-car" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PS24S" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PS28S" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PS41" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PSA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PSA T87 1st Row" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PSA T87 2nd Row" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PSA T87 3rd Row" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PSA/RSA/DACIA/NISSAN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PT Coordination" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PU" description="" conditionName="isTrue"/>
+     <TcLOVValue value="PU201" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Purchasing Support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Q 7" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Q3" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Q5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="QBC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="QF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Qoros CF 11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Quad Uni/Quadrillo" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Quotes Avtovaz" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Quotes Fiat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Quotes GM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Quotes KIA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Quoting" description="" conditionName="isTrue"/>
+     <TcLOVValue value="R 77" description="" conditionName="isTrue"/>
+     <TcLOVValue value="R33" description="" conditionName="isTrue"/>
+     <TcLOVValue value="R33 Elysee China" description="" conditionName="isTrue"/>
+     <TcLOVValue value="R42H" description="" conditionName="isTrue"/>
+     <TcLOVValue value="R50 Diverse VA-VE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="R50 Front Seat ROE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="R50/R52 Fr. Seat SAL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="R57 Seitenverk." description="" conditionName="isTrue"/>
+     <TcLOVValue value="R60" description="" conditionName="isTrue"/>
+     <TcLOVValue value="R61" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Radiator Tanks" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RCM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RDX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RE52" description="" conditionName="isTrue"/>
+     <TcLOVValue value="REC 80 Recliner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Recaro" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Recaro Support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Recliner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Recliner single Test" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Recliner Wechsel MFS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Refine II" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Renault" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Renault EN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Retainer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Reverse Engineering" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RF90 Romania" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RF90 Russia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RFQ" description="" conditionName="isTrue"/>
+     <TcLOVValue value="riACT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="riACT small package" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ridgeline" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Riqualificazione 09" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Riqualificazione 10" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Riqualificazione 11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Riqualificazione 12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Riqualificazione 13" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Riqualificazione 14" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Roewe 750" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Rogue" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Rotary Recliner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Rotary Tilt Adjuster" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RR001" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RR01" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RR01 Phantom" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RR05" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RR2/3 Drophead/Coupe" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RR4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RR4 Ghost" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RR4 LCI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RS3" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RSA CMF1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RSE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RU" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Rumanien" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Run RB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Running Business" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Running seats" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S 60 / S 80" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S08" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S161" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S18" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S197" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S261" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S3" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S389" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S4100 VIVA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S4200" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S4316" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S4400 HR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S4470" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S550" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S56" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S60" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S60L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S7" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S700" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S80" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S80L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Santana 3000" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SANTANA NF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Santana3000" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SAR X85-Turquie" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Saveiro" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Scorell II" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SCSII" description="" conditionName="isTrue"/>
+     <TcLOVValue value="S-CUV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Seat Track" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Self Adjust. HR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SEP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Service Mezolak" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM A10" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM DE platform" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM K216" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM L850" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM18" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM200" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM201" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM258" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM308" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM318" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM328" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM328 FRAME" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM358" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM615" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM618" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM711" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SGM818" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Shanghai Support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sharan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SII" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SII BEV LVP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SIPS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK 251/253" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK 376" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK 46" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK250" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK251" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK251_PAB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK253" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK253 CS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK253_PAB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK260" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK316" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK326" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK351" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK371" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK378" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK461" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SK481 FL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda - SK46" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A04 Serie" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A04 SK24 SAB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A05 Kopfstütze" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A05" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A05 SAB Test" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A05 SK25 SAB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A05 SK250/252" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A05 SK251" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A05 SK253" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A05 SK258" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A05 SK25x" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A05 SK25x FCL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A05 SK25x RS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A06 SK26" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A4 Indien" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A4 Serie" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A4 SK34 SAB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A5 Serie" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A5 SK35 SAB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A7 SK37" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda A7 SK37 CS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda B5 Serie" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda B5 SK45 07 SAB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda B5 SK45 SAB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda B6 SK46 Superb" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda B6 SK461" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda B6 SK461_2R" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda CCT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda PV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda SK120" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda SK35" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda SK37 CS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda SK376" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda_SK356_1R_YETI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda_SK356_2R_YETI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda_SK461" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda_SK461_1R_SAB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda_SK461_1Reihe" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda_SK461_2R_SAB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Skoda_SK462" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SLC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SLe" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sliding Armrest" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Slim HR / Rigid Foam" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Small Size RR STD Frame" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Smart 456" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Smart Edison" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SMTE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SNOEKS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SPA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Space Back" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Spec to Spec material change" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Speed Test China" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Steering Column" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Step Tilt Adjuster" description="" conditionName="isTrue"/>
+     <TcLOVValue value="STX-A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sunvisor Mirror" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Supplier moves" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Supplier/Tool moves" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Support Espelkamp" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Support." description="" conditionName="isTrue"/>
+     <TcLOVValue value="Suzuki PV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Suzuki Swift" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SVW New Frame" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SZA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SZNA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T &amp; B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T 361/371 US" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T 5 Nutz / Multivan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T 7" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T 8" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T 84" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T 87" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T250" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T255" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T30" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T300" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T3050" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T31" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T4NA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T5 Hintersitz" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T5 MV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T5/L359 Proma change" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T5AA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T6" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T7AA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T8" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T87" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T88" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T88 China" description="" conditionName="isTrue"/>
+     <TcLOVValue value="T99" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Talon Court" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TAM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Taumel 2000" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Taumel 2000 R" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Taumel 3000" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tcar" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TCU" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Test section temp" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Testing Model KL02" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TFC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TFC Facelift" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TFC MY14" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Thermobond 3000" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Thermobond Thermoset" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Thin Light Back" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tiguan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tilt Adjuster" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TK VTA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Touareg NF COM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TOURAN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tow -Bar" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Toyota" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Toyota 410W riACT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Track 2000 Asym" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Track 3000" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tracks Application" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tracks ASM EMT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tracks CRH" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tracks DVP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tracks ECE R14" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tracks Gemini" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tracks single Tests" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tracks Various" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Training Model KL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Training Model KL01" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Training Modell A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Transit" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Transit 362 / 363" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Transit Connect" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Transit CRH" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Transmission" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Transmission Tube" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Trim" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tundra" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TÜV HR BR218 / BR222" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Twin Sheet Thermofolding" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TZ3" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U201" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U222" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U228" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U22X" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U293" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U375" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U377" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U387" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U388" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U502" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U540" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U540 Alcantara" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U553" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U554" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U61B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U90 Iran" description="" conditionName="isTrue"/>
+     <TcLOVValue value="U90 Romania" description="" conditionName="isTrue"/>
+     <TcLOVValue value="UB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Überherrn DE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Überherrn EN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="UF" description="" conditionName="isTrue"/>
+     <TcLOVValue value="UKL2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="UM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="UMa" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Unibody (WK,WD)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Unknown" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Up" description="" conditionName="isTrue"/>
+     <TcLOVValue value="US Homelink4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="USST" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V08" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V10" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V205 DP CN Main PV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V212" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V212 DP CN Mopf PV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V212 DP CN Other PV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V227" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V227N" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V250" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V251" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V268" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V348" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V362" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V362 - Recliner" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V363" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V36x" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V408" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V408 1.Row" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V408 2.Row" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V515" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V526" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V54x" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VA/VE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VA/VE B-car" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VA/VE C-car" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VA/VE several Progr." description="" conditionName="isTrue"/>
+     <TcLOVValue value="VA/VE TVM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Vac Wrap Adhesive Development" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Various" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Various Components" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Various Models" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Various Tests" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VAVE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VAVE 06FY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VAVE 07FY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VAVE 08FY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VAVE 09FY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VAVE 10FY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="V-CAR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Vectra" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Verlag. Airbagblech" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Viper" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VIVA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VN127" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VO 362/363 Flamingo" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VO 362/363 Single" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VO BMW MCV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Volvo" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Volvo CCT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Volvo MSA study" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Volvo Ocean Race" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Volvo PV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Voyage" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VP31" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VS20" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VS300" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VSSB" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 250 Polo CS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 253 A-Entry" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 311 New Bora" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 351 NAR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 361 Jetta" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 364 Scirocco" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 370" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 376 Tiguan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 378" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 411" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 416" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 428" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 469" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 471 Clock" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 526" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 611 D1 Phaeton" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 621 D2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW 726 MHSA" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW CCT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW D1 Sitzeinleger" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW Polo" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW PV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW Sitze D1 PV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW240" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW241" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW250" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW250 GP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW250CS GTI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW253 A Entry" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW253 Derivat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW253 Taxi" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW313" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW316" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW321" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW326" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW358" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW373" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW378" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW411" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW416" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW421" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VW451" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VY12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W 202" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W10" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W161" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W205 DP AMG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W205 DP Designo" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W205 DP EcoCor local" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W205 DP EU Main PV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W205 DP EU other PV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W205 DP RSA Main PV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W205 DP RSA other PV" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W21A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W21B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W32U" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W41" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W42J" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W42JK" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W42K" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W42L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="W95 backrest" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Warranty B-car" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Warranty C-car" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Warranty Support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Warranty V-car" description="" conditionName="isTrue"/>
+     <TcLOVValue value="WD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wellness Substrate Antimicrobial" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Werk Zwickau" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Werkzeugverlagerung" description="" conditionName="isTrue"/>
+     <TcLOVValue value="WH Jeep" description="" conditionName="isTrue"/>
+     <TcLOVValue value="WK" description="" conditionName="isTrue"/>
+     <TcLOVValue value="WOKS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wuppertal" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wuppertal DE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="w-wagon" description="" conditionName="isTrue"/>
+     <TcLOVValue value="WY12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="WZW" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X06" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X104" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X11C" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X11Q" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X12C" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X12D" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X12F" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X12F-MC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X12G" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X12L" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X12M" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X150" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X156 Seat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X250" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X253 DP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X253 IP" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X350" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X351" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X386" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X400" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X409" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X42H" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X44" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X44 Sport" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X450" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X52" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X61A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X61B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X61B (All variants)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X61B IQS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X61B prodn support" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X61B VA-VE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X61F" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X61G" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X65" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X77" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X8 &amp; X9" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X81C" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X83" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X85" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X85 DOI" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X85 Sport" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X85-Turkey" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X87" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X88" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X95" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X98" description="" conditionName="isTrue"/>
+     <TcLOVValue value="XC60" description="" conditionName="isTrue"/>
+     <TcLOVValue value="XCarline" description="" conditionName="isTrue"/>
+     <TcLOVValue value="X-Carline Headrest" description="" conditionName="isTrue"/>
+     <TcLOVValue value="XDC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="XK" description="" conditionName="isTrue"/>
+     <TcLOVValue value="XLT 800 gsm" description="" conditionName="isTrue"/>
+     <TcLOVValue value="XM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="XTS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Xuyang A5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Xuyang B6" description="" conditionName="isTrue"/>
+     <TcLOVValue value="XXX EDL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="XZ+active HR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y 300 QZ" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y12" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y1XX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y1XX &amp; K2XX" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y283" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y285" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y286" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y305" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y31" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y310" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y352" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y413" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y465/466" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y483" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y483 China" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y483 MY12 China" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y521" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y555" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Y62" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YAA / YAE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YAE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YC5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Yeti" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YG" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YL1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YN5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YS83" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Yuejin" description="" conditionName="isTrue"/>
+     <TcLOVValue value="YY5" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Z1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Z2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Z62" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Zafira" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ZC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Zero Gap" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ZM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ZP 11 EU" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ZP11" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ZP11 AU" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ZP11 cross" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ZP11 EU" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ZP11 TT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ZW" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_VerificationPlanning" lovType="ListOfValuesString" usage="Exhaustive"
+       description="List of values for Verification Planning.">
+     <TcLOVValue value="Design Activity" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Capability Study" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CAE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Engineering Development(ED)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Design Verification (DV)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Production Validation (PV)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Surrogate Data" description="" conditionName="isTrue"/>
+     <TcLOVValue value="N/A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Other" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Customer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Supplier" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Continuous Conformance Testing (CCT)" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_VibrationSubClass" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="BSR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Durability" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dynamic Deflection" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mechanical Shock" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Operating Vibration" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Road Load Data Acquisition" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_WorkOrderStatus_Test" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="New" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Timing Requested" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Scheduled" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Parts Submitted" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Assigned" description="" conditionName="isTrue"/>
+     <TcLOVValue value="In Process" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Completed" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Submit for Review" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Reviewed" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Results Approved" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cancelled" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_WorkOrderType" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Work Order Type">
+     <TcLOVValue value="COE Prototype Work Order" description="COE Prototype Work Order"
+         conditionName="isTrue"/>
+     <TcLOVValue value="Product Development Work Order" description="Product Development Work Order"
+         conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="YF4_phasetypes" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="Engineering Development (ED)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Design Verification (DV)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Production Validation (PV)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Continuous Conformance Testing (CCT)" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VAVE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tool Relocation" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Homolgation" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_RatingOverall" targetValue="2 - Less Than Full Performance"
+       subLOVName="YF4_RatingReasonOverall" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_Ratings" targetValue="2 - Less Than Full Performance"
+       subLOVName="YF4_QualityRatingReason" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_RatingsC" targetValue="2 - Less Than Full Performance"
+       subLOVName="YF4_CommRatingReason" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="YF4_RatingsT" targetValue="2 - Less Than Full Performance"
+       subLOVName="YF4_TimingRatingReason" conditionName="isTrue"/>
+   <TcLOVAttach lovName="User Names" typeName="YF4_WorkOrderRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_AdditionalContacts" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_BuildEventType" typeName="YF4_ProtWORevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_BuildEventType" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_COEProductBusinessUnit" typeName="YF4_ProtWORevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_ProductBusinessUnit" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_Category" typeName="YF4_EquipmentRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_Category" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_CustomerBusinessUnit" typeName="YF4_ProtWORevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_CustomerBusinessUnit" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_Department_Test" typeName="YF4_ParaRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_Department" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_Department_Test" typeName="YF4_TestRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_Department" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_Department" typeName="YF4_EquipmentRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_department" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_Language" typeName="YF4_SpecRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_Language" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_Location" typeName="YF4_EquipmentRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_location" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_Location" typeName="YF4_ParaRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_Location" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_Location" typeName="YF4_SampleRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_storage_location" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_MoldStorageLocations" typeName="YF4_MoldRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_MoldStorageLocation" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_MoldStorageLocations" typeName="YF4_PDWorkOrderRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_MoldStorageLocation" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_ProdDevWorkOrderType" typeName="YF4_PDWorkOrderRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_ProdDevWorkOrderType" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_ProductDevelopmentPBU" typeName="YF4_PDWorkOrderRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_PDBusinessUnit" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_ProductLOV" typeName="YF4_DVPRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_product" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_ProductLOV" typeName="YF4_TestReqObjRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_product" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_PublisherList" typeName="YF4_DVPRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_customer" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_PublisherList" typeName="YF4_TestMethodRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_Publisher" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_PublisherList" typeName="YF4_TestReqObjRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_customer" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_RatingOverall" typeName="YF4_PDWorkOrderRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_RatingOverall" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_RatingsC" typeName="YF4_PDWorkOrderRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_Communication" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_RatingsT" typeName="YF4_PDWorkOrderRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_Timing" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_Ratings" typeName="YF4_PDWorkOrderRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_Quaility" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_Type" typeName="YF4_FixtureRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_type" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_VehicleLOV" typeName="YF4_DVPRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_vehicle" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_VehicleLOV" typeName="YF4_FixtureRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_vehicle" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_VehicleLOV" typeName="YF4_TDM_ReqtRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_vehicle" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="YF4_WorkOrderStatus_Test" typeName="YF4_TestRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="yf4_work_order_status" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

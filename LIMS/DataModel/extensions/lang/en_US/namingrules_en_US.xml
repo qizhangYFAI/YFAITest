@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}Paragraph Revision" status="Approved">COTS Paragraph Revision</key>
+   <key locale="en_US" id="BusinessObject{::}Paragraph" status="Approved">zCOTS Paragraph</key>
+   <key locale="en_US" id="BusinessObject{::}Specification" status="Approved">zCOTS Specification</key>
+</Add>
+</TcBusinessDataLocalization>
